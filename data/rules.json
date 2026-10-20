@@ -1,0 +1,456 @@
+{
+  "version": "2026-10-20",
+  "_help": "Ingredient rules. match: text contained in the ingredient list (lowercase). '=word' = whole word only. except: phrases removed before matching. vegan_ok: skip rule if product is marked vegan/vegetarian on Open Food Facts. Edit on GitHub -> app picks it up automatically.",
+  "rules": [
+    {
+      "id": "pork",
+      "level": "haram",
+      "label": "Pork / Schwein",
+      "note": "Pork and all pork derivatives are haram.",
+      "match": [
+        "schwein",
+        "=pork",
+        "=porc",
+        "varken",
+        "maiale",
+        "speck",
+        "bacon",
+        "=lard",
+        "saindoux",
+        "=jambon",
+        "prosciutto",
+        "pancetta",
+        "=ham"
+      ],
+      "except": []
+    },
+    {
+      "id": "ham-de",
+      "level": "haram",
+      "label": "Schinken (ham, usually pork)",
+      "note": "In Germany 'Schinken' without an animal named is pork.",
+      "match": [
+        "schinken"
+      ],
+      "except": [
+        "putenschinken",
+        "geflügelschinken",
+        "truthahnschinken",
+        "hähnchenschinken",
+        "hühnerschinken",
+        "rinderschinken",
+        "kalbsschinken",
+        "lachsschinken vom rind"
+      ]
+    },
+    {
+      "id": "lard-de",
+      "level": "haram",
+      "label": "Schmalz (lard)",
+      "note": "Plain 'Schmalz' is pork lard.",
+      "match": [
+        "schmalz"
+      ],
+      "except": [
+        "butterschmalz",
+        "gänseschmalz",
+        "pflanzenschmalz",
+        "kokosschmalz",
+        "rinderschmalz",
+        "entenschmalz"
+      ]
+    },
+    {
+      "id": "gelatine",
+      "level": "haram",
+      "label": "Gelatine",
+      "note": "In Germany gelatine is mostly pork unless the source (fish / halal beef) is stated.",
+      "match": [
+        "gelatine",
+        "gelatin",
+        "gélatine",
+        "=e441",
+        "gelatina"
+      ],
+      "except": [
+        "fischgelatine",
+        "fish gelatin",
+        "fish gelatine",
+        "gelatine (fisch",
+        "gelatine aus fisch",
+        "halal gelatine",
+        "halal-gelatine",
+        "halalgelatine",
+        "rindergelatine",
+        "beef gelatin",
+        "beef gelatine",
+        "gelatine (rind",
+        "gelatine vom rind",
+        "gelatine aus rind"
+      ]
+    },
+    {
+      "id": "alcohol",
+      "level": "haram",
+      "label": "Alcohol / Alkohol",
+      "note": "Alcohol as an ingredient is not permitted by European halal certifiers.",
+      "match": [
+        "alkohol",
+        "alcohol",
+        "ethanol",
+        "=wein",
+        "rotwein",
+        "weißwein",
+        "weisswein",
+        "dessertwein",
+        "portwein",
+        "branntwein",
+        "weinbrand",
+        "=wine",
+        "=vin",
+        "=rum",
+        "rumaroma",
+        "=bier",
+        "=beer",
+        "likör",
+        "liqueur",
+        "eierlikör",
+        "=sekt",
+        "champagner",
+        "=cognac",
+        "=brandy",
+        "=whisky",
+        "=whiskey",
+        "=wodka",
+        "=vodka",
+        "=gin",
+        "kirschwasser",
+        "=amaretto",
+        "=marsala",
+        "=sherry",
+        "=calvados",
+        "=grappa",
+        "spirituose",
+        "=sake",
+        "=mirin"
+      ],
+      "except": [
+        "alkoholfrei",
+        "alcohol-free",
+        "alcohol free",
+        "zuckeralkohol",
+        "sugar alcohol",
+        "ohne alkohol",
+        "weinstein",
+        "weinsäure",
+        "weinessig",
+        "weintraube",
+        "wine vinegar",
+        "vinaigre de vin",
+        "bierhefe",
+        "brewer's yeast",
+        "beer yeast"
+      ]
+    },
+    {
+      "id": "carmine",
+      "level": "haram",
+      "label": "Carmine / Karmin (E120)",
+      "note": "Insect-derived red colour; not accepted by most halal certifiers.",
+      "match": [
+        "=e120",
+        "karmin",
+        "carmin",
+        "cochenille",
+        "cochineal",
+        "karminsäure",
+        "carminic"
+      ],
+      "except": []
+    },
+    {
+      "id": "blood",
+      "level": "haram",
+      "label": "Blood / Blut",
+      "note": "Blood and blood products are haram.",
+      "match": [
+        "=blut",
+        "blutwurst",
+        "blutplasma",
+        "blood plasma",
+        "=blood"
+      ],
+      "except": [
+        "blutorange",
+        "blood orange"
+      ]
+    },
+    {
+      "id": "beef-gelatine",
+      "level": "doubtful",
+      "label": "Beef gelatine",
+      "note": "Halal only if from halal-slaughtered cattle — look for a certificate.",
+      "match": [
+        "rindergelatine",
+        "beef gelatin",
+        "beef gelatine",
+        "gelatine (rind",
+        "gelatine vom rind",
+        "gelatine aus rind"
+      ],
+      "except": []
+    },
+    {
+      "id": "emulsifiers",
+      "level": "doubtful",
+      "label": "Emulsifiers (may be animal fat)",
+      "note": "E470–E495 / mono- & diglycerides can come from pork fat unless stated plant-based.",
+      "match": [
+        "=e470a",
+        "=e470b",
+        "=e471",
+        "=e472a",
+        "=e472b",
+        "=e472c",
+        "=e472d",
+        "=e472e",
+        "=e472f",
+        "=e473",
+        "=e474",
+        "=e475",
+        "=e477",
+        "=e478",
+        "=e481",
+        "=e482",
+        "=e483",
+        "=e491",
+        "=e492",
+        "=e493",
+        "=e494",
+        "=e495",
+        "mono- und diglyceride",
+        "mono- and diglycerides",
+        "monoglyceride",
+        "diglyceride",
+        "mono- et diglycérides"
+      ],
+      "except": [
+        "pflanzliche mono- und diglyceride",
+        "e471 (pflanzlich)",
+        "e471 (aus pflanzlichen fetten)",
+        "e471 aus pflanzlichen fetten",
+        "mono- und diglyceride von speisefettsäuren (pflanzlich)",
+        "mono- und diglyceride von speisefettsäuren aus pflanzlichen fetten",
+        "mono- and diglycerides of fatty acids (vegetable)"
+      ],
+      "vegan_ok": true
+    },
+    {
+      "id": "glycerol",
+      "level": "doubtful",
+      "label": "Glycerin (E422)",
+      "note": "Can be animal-derived unless plant source stated.",
+      "match": [
+        "=e422",
+        "glycerin",
+        "glycerol",
+        "glycérol"
+      ],
+      "except": [
+        "pflanzliches glycerin",
+        "vegetable glycerin",
+        "glycerin (pflanzlich",
+        "glycerinester von baumharz",
+        "glycerinester aus wurzelharz",
+        "glycerinester von holzharzen"
+      ],
+      "vegan_ok": true
+    },
+    {
+      "id": "cysteine",
+      "level": "doubtful",
+      "label": "L-Cysteine (E920)",
+      "note": "Often made from feathers or hair.",
+      "match": [
+        "=e920",
+        "l-cystein",
+        "l-cysteine",
+        "cystein"
+      ],
+      "except": [],
+      "vegan_ok": true
+    },
+    {
+      "id": "stearic",
+      "level": "doubtful",
+      "label": "Stearic acid / stearates (E570, E572)",
+      "note": "May be animal fat.",
+      "match": [
+        "=e570",
+        "=e572",
+        "stearinsäure",
+        "stearic acid",
+        "magnesiumstearat",
+        "magnesium stearate"
+      ],
+      "except": [],
+      "vegan_ok": true
+    },
+    {
+      "id": "bone",
+      "level": "doubtful",
+      "label": "Bone phosphate (E542)",
+      "note": "Made from animal bones.",
+      "match": [
+        "=e542",
+        "knochenphosphat",
+        "bone phosphate",
+        "knochen"
+      ],
+      "except": []
+    },
+    {
+      "id": "rennet",
+      "level": "doubtful",
+      "label": "Animal rennet / Lab",
+      "note": "Calf rennet is halal only from halal-slaughtered animals; microbial rennet is fine.",
+      "match": [
+        "=lab",
+        "tierisches lab",
+        "kälberlab",
+        "=rennet",
+        "=présure",
+        "=pepsin"
+      ],
+      "except": [
+        "mikrobielles lab",
+        "mikrobiellem lab",
+        "mikrobieller lab",
+        "microbial rennet",
+        "vegetarisches lab",
+        "pflanzliches lab",
+        "lab (mikrobiell"
+      ],
+      "vegan_ok": true
+    },
+    {
+      "id": "animal-fat",
+      "level": "doubtful",
+      "label": "Animal fat",
+      "note": "Source animal / slaughter unknown.",
+      "match": [
+        "tierische fette",
+        "tierisches fett",
+        "tierischer fett",
+        "animal fat",
+        "=talg",
+        "rindertalg",
+        "tallow",
+        "hühnerfett",
+        "rinderfett"
+      ],
+      "except": [],
+      "vegan_ok": true
+    },
+    {
+      "id": "meat",
+      "level": "doubtful",
+      "label": "Meat / poultry (Fleisch)",
+      "note": "Meat must come from halal slaughter (Zabiha). Look for a certificate.",
+      "match": [
+        "fleisch",
+        "=rind",
+        "rinder",
+        "=kalb",
+        "kalbs",
+        "=lamm",
+        "lammfleisch",
+        "hähnchen",
+        "=huhn",
+        "=pute",
+        "puten",
+        "truthahn",
+        "geflügel",
+        "=ente",
+        "=gans",
+        "=wild",
+        "hirsch",
+        "=wurst",
+        "salami",
+        "=chicken",
+        "=beef",
+        "=veal",
+        "=lamb",
+        "=mutton",
+        "=turkey",
+        "=poulet",
+        "=boeuf",
+        "fleischextrakt",
+        "fleischbrühe",
+        "collagen",
+        "kollagen",
+        "hühnerfleisch",
+        "hühnerbrühe",
+        "hühnerbrust",
+        "hühnerleber",
+        "hühnerkeule",
+        "hühnerextrakt"
+      ],
+      "except": [
+        "fruchtfleisch",
+        "fruit flesh",
+        "fleischtomate",
+        "kokosfleisch",
+        "fleischlos",
+        "ohne fleisch",
+        "fleischfrei",
+        "fleischersatz",
+        "wildkräuter",
+        "wildreis",
+        "wildheidelbeer",
+        "wildpreiselbeer",
+        "wildblumen",
+        "wildlachs",
+        "wildfang",
+        "wildhefe",
+        "wildkirsche",
+        "wild-heidelbeer",
+        "pflanzliches collagen",
+        "vegetarisch",
+        "veggie",
+        "rindergelatine"
+      ]
+    },
+    {
+      "id": "flavour-alcohol-carrier",
+      "level": "doubtful",
+      "label": "Flavour carrier may be alcohol",
+      "note": "Flavours (Aroma) may use ethanol as carrier; certified products avoid this.",
+      "match": [
+        "=arrak",
+        "rum-aroma",
+        "rumaroma",
+        "wein-aroma",
+        "weinaroma"
+      ],
+      "except": []
+    },
+    {
+      "id": "shellfish-lab-insects",
+      "level": "doubtful",
+      "label": "Insects",
+      "note": "Insect ingredients are disputed among schools of thought.",
+      "match": [
+        "mehlwurm",
+        "insektenpulver",
+        "insect powder",
+        "grillenmehl",
+        "cricket powder",
+        "=e904",
+        "schellack",
+        "shellac"
+      ],
+      "except": []
+    }
+  ]
+}

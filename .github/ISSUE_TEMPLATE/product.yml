@@ -1,0 +1,41 @@
+name: 🛒 Add / correct a product
+description: Add a product to the Halal database (data/products.json)
+title: "Product: "
+labels: ["product"]
+body:
+  - type: input
+    id: barcode
+    attributes:
+      label: Barcode
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Product name
+  - type: input
+    id: brand
+    attributes:
+      label: Brand
+  - type: input
+    id: app_verdict
+    attributes:
+      label: What the app said
+  - type: dropdown
+    id: status
+    attributes:
+      label: Correct status
+      options:
+        - halal
+        - haram
+        - doubtful
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source / certifier (e.g. Halal Control, HQC, HFCE)
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence (certificate link, photo of logo, notes)

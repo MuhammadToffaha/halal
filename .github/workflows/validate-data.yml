@@ -1,0 +1,37 @@
+name: ✅ Validate data
+
+on:
+  push:
+    paths: ["data/**"]
+  pull_request:
+    paths: ["data/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JSON files
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          ok = True
+          for f in ["data/rules.json", "data/products.json", "data/resources.json"]:
+              try:
+                  d = json.load(open(f, encoding="utf-8"))
+              except Exception as e:
+                  print(f"❌ {f}: {e}"); ok = False; continue
+              print(f"✅ {f}")
+          p = json.load(open("data/products.json", encoding="utf-8"))
+          seen = set()
+          for i, x in enumerate(p.get("products", [])):
+              bc = str(x.get("barcode", ""))
+              if not bc.isdigit():
+                  print(f"❌ product #{i}: barcode must be digits"); ok = False
+              if x.get("status") not in ("halal", "haram", "doubtful"):
+                  print(f"❌ product #{i} ({bc}): status must be halal|haram|doubtful"); ok = False
+              if bc in seen:
+                  print(f"❌ duplicate barcode {bc}"); ok = False
+              seen.add(bc)
+          sys.exit(0 if ok else 1)
+          PY

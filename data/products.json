@@ -1,0 +1,6 @@
+{
+  "updated": "2026-10-20",
+  "_help": "Your verified products. status: halal | haram | doubtful. source = certifier / institution (e.g. 'Halal Control GmbH', 'HQC', 'HFCE'). url = certificate or source link. Add one object per product; the app syncs automatically.",
+  "products": [
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "_help": "Sources shown in the app. search: URL with {q} placeholder used by 'Search in sources'.",
+  "resources": [
+    {
+      "name": "Halal Control GmbH",
+      "country": "🇩🇪",
+      "description": "German halal certification body (Rüsselsheim). Certifies many German food producers.",
+      "url": "https://www.halalcontrol.de",
+      "search": "https://www.google.com/search?q=%22Halal+Control%22+{q}"
+    },
+    {
+      "name": "HQC – Halal Quality Control",
+      "country": "🇳🇱",
+      "description": "European halal certifier active in NL, DE and across the EU.",
+      "url": "https://hqc.eu/en",
+      "search": "https://www.google.com/search?q=site%3Ahqc.eu+{q}"
+    },
+    {
+      "name": "HFCE – Halal Food Council of Europe",
+      "country": "🇧🇪",
+      "description": "Brussels-based halal certification body, accredited by several Muslim-country authorities.",
+      "url": "https://www.hfce.eu",
+      "search": "https://www.google.com/search?q=%22Halal+Food+Council+of+Europe%22+{q}"
+    },
+    {
+      "name": "HCE – Halal Certification Europe",
+      "country": "🇬🇧",
+      "description": "European halal certifier (UK-based) with EU clients.",
+      "url": "https://www.halalcertificationeurope.com",
+      "search": "https://www.google.com/search?q=%22Halal+Certification+Europe%22+{q}"
+    },
+    {
+      "name": "European Council for Fatwa and Research",
+      "country": "🇪🇺",
+      "description": "Fatwas for Muslims in Europe (e.g. on gelatine, alcohol traces, E-numbers).",
+      "url": "https://www.e-cfr.org",
+      "search": "https://www.google.com/search?q=site%3Ae-cfr.org+{q}"
+    },
+    {
+      "name": "Open Food Facts",
+      "country": "🌍",
+      "description": "Open product database used by the app for ingredients and labels (halal labels included).",
+      "url": "https://de.openfoodfacts.org",
+      "search": "https://de.openfoodfacts.org/cgi/search.pl?search_terms={q}&search_simple=1&action=process"
+    },
+    {
+      "name": "Google: halal + product",
+      "country": "🔎",
+      "description": "General web search for halal certificates of a product.",
+      "url": "https://www.google.com",
+      "search": "https://www.google.com/search?q=halal+zertifikat+{q}"
+    }
+  ]
+}

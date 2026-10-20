@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.Halal" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/halal_green</item>
+    </style>
+</resources>
