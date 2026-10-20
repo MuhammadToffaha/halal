@@ -22,8 +22,6 @@ jobs:
           distribution: temurin
           java-version: "17"
 
-      - uses: android-actions/setup-android@v3
-
       - uses: gradle/actions/setup-gradle@v4
 
       - name: Build signed APK
@@ -31,6 +29,8 @@ jobs:
           VERSION_CODE: ${{ github.run_number }}
         run: |
           chmod +x gradlew
+          echo "ANDROID_HOME=$ANDROID_HOME" ; ls "$ANDROID_HOME/platforms" || echo "::error::no Android SDK on runner"
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
           set -o pipefail
           ./gradlew assembleRelease --no-daemon 2>&1 | tee build.log || {
             # show errors as annotations (readable without log download)
