@@ -10,7 +10,7 @@ import org.json.JSONObject
 import java.io.File
 
 /**
- * Loads data/*.json: first from the on-phone cache (or the copy bundled in the APK),
+ * Loads the data JSON files: first from the on-phone cache (or the copy bundled in the APK),
  * then refreshes from GitHub so edits in the repo reach the app without a new release.
  */
 class DataRepo(private val ctx: Context) {
