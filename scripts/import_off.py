@@ -48,7 +48,11 @@ def stores(p):
     st = p.get("stores")
     if not names and st:
         st = ",".join(st) if isinstance(st, list) else str(st)
-        names = [s.strip() for s in st.split(",") if s.strip()]
+        for x in (s.strip() for s in st.split(",")):
+            key = x.lower().replace(" ", "-")
+            n = STORE_NAMES.get(key, x)
+            if n and n not in names:
+                names.append(n)
     return ", ".join(names[:6])
 
 
