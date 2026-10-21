@@ -8,22 +8,20 @@ import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
-import androidx.compose.material3.TopAppBarDefaults
-import androidx.compose.material3.darkColorScheme
-import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -33,7 +31,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
@@ -48,17 +48,6 @@ class MainActivity : ComponentActivity() {
         Lang.init(this)
         setContent { HalalTheme { HalalApp() } }
     }
-}
-
-val Green = Color(0xFF1B7F4B)
-
-@Composable
-fun HalalTheme(content: @Composable () -> Unit) {
-    val scheme = if (isSystemInDarkTheme())
-        darkColorScheme(primary = Color(0xFF6FD39B), secondary = Color(0xFF9CCFB2))
-    else
-        lightColorScheme(primary = Green, secondary = Color(0xFF3E6B53))
-    MaterialTheme(colorScheme = scheme, content = content)
 }
 
 fun Context.openUrl(url: String) {
@@ -160,7 +149,7 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
 
 enum class Tab(val icon: String, private val en: String, private val de: String) {
     SCAN("📷", "Scan", "Scannen"), SEARCH("🔎", "Search", "Suche"),
-    SOURCES("📚", "Sources", "Quellen"), SETTINGS("⚙️", "Settings", "Einstellungen");
+    SETTINGS("⚙️", "Settings", "Einstellungen");
 
     val label get() = L(en, de)
 }
@@ -172,6 +161,7 @@ fun HalalApp() {
     val scope = rememberCoroutineScope()
     val state = remember { AppState(ctx.applicationContext, scope) }
     var tab by remember { mutableStateOf(Tab.SCAN) }
+    var showSources by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
         state.data.loadLocal()
@@ -179,25 +169,28 @@ fun HalalApp() {
         state.data.refresh()
     }
     BackHandler(enabled = state.result != null) { state.close() }
+    BackHandler(enabled = state.result == null && showSources) { showSources = false }
 
     Scaffold(
-        topBar = {
-            CenterAlignedTopAppBar(
-                title = { Text("☪️ Halal Scanner", fontWeight = FontWeight.Bold, fontSize = 20.sp) },
-                colors = TopAppBarDefaults.centerAlignedTopAppBarColors(
-                    containerColor = Green, titleContentColor = Color.White
-                )
-            )
-        },
+        containerColor = MaterialTheme.colorScheme.background,
+        topBar = { IslamicHeader() },
         bottomBar = {
-            NavigationBar {
-                Tab.entries.forEach { t ->
-                    NavigationBarItem(
-                        selected = tab == t,
-                        onClick = { tab = t; state.close() },
-                        icon = { Text(t.icon, fontSize = 22.sp) },
-                        label = { Text(t.label, maxLines = 1, fontSize = 11.sp) }
-                    )
+            Column {
+                Box(Modifier.fillMaxWidth().height(2.dp).background(Brush.horizontalGradient(listOf(Color.Transparent, Gold, Color.Transparent))))
+                NavigationBar(containerColor = EmeraldDeep) {
+                    Tab.entries.forEach { t ->
+                        NavigationBarItem(
+                            selected = tab == t,
+                            onClick = { tab = t; showSources = false; state.close() },
+                            icon = { Text(t.icon, fontSize = 22.sp) },
+                            label = { Text(t.label, maxLines = 1, fontSize = 12.sp, fontWeight = FontWeight.SemiBold) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedTextColor = Gold,
+                                unselectedTextColor = Color.White.copy(alpha = 0.75f),
+                                indicatorColor = Gold.copy(alpha = 0.28f),
+                            )
+                        )
+                    }
                 }
             }
         }
@@ -210,8 +203,8 @@ fun HalalApp() {
                     r != null -> ResultScreen(r, state)
                     tab == Tab.SCAN -> ScanScreen(state)
                     tab == Tab.SEARCH -> SearchScreen(state)
-                    tab == Tab.SOURCES -> SourcesScreen(state)
-                    else -> SettingsScreen(state)
+                    showSources -> SourcesScreen(state, onBack = { showSources = false })
+                    else -> SettingsScreen(state, onSources = { showSources = true })
                 }
             }
         }

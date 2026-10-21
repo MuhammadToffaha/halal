@@ -1,6 +1,8 @@
 package com.toffaha.halal
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -27,6 +29,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -45,13 +48,19 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         // Verdict card
         Card(
             colors = CardDefaults.cardColors(containerColor = color),
+            border = BorderStroke(2.dp, Gold),
             shape = RoundedCornerShape(20.dp),
             modifier = Modifier.fillMaxWidth()
         ) {
+            Box {
+            IslamicPattern(Modifier.matchParentSize(), Color.White.copy(alpha = 0.13f), 28.dp)
             Column(Modifier.fillMaxWidth().padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(r.verdict.emoji, fontSize = 56.sp)
                 Text(r.verdict.titleL, color = Color.White, fontSize = 26.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
                 Text(r.verdict.subtitleL, color = Color.White.copy(alpha = 0.9f), textAlign = TextAlign.Center)
+                if (r.verdict == Verdict.HALAL_CERTIFIED || r.verdict == Verdict.HALAL_LISTED)
+                    Text("حلال", color = GoldSoft, fontSize = 22.sp, fontFamily = FontFamily.Serif, fontWeight = FontWeight.Bold)
+            }
             }
         }
 
@@ -61,7 +70,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
             r.product?.brand?.ifBlank { null } ?: r.listed?.brand?.ifBlank { null },
             r.product?.quantity?.ifBlank { null }
         ).joinToString(" · ")
-        Card(Modifier.fillMaxWidth()) {
+        Card(Modifier.fillMaxWidth(), border = BorderStroke(1.dp, Gold.copy(alpha = 0.4f)), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
             Column(Modifier.padding(16.dp)) {
                 Text("🛒 $name", fontWeight = FontWeight.Bold, fontSize = 18.sp)
                 if (brand.isNotBlank()) Text("🏭 $brand")
@@ -70,7 +79,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         }
 
         if (r.reasons.isNotEmpty()) {
-            Card(Modifier.fillMaxWidth()) {
+            Card(Modifier.fillMaxWidth(), border = BorderStroke(1.dp, Gold.copy(alpha = 0.4f)), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                     Text(L("💡 Why", "💡 Warum"), fontWeight = FontWeight.Bold)
                     r.reasons.forEach { Text(it) }
@@ -82,7 +91,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         }
 
         if (r.findings.isNotEmpty()) {
-            Card(Modifier.fillMaxWidth()) {
+            Card(Modifier.fillMaxWidth(), border = BorderStroke(1.dp, Gold.copy(alpha = 0.4f)), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(L("🧪 Ingredients flagged", "🧪 Auffällige Zutaten"), fontWeight = FontWeight.Bold)
                     r.findings.forEach { f ->
@@ -99,7 +108,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         }
 
         r.product?.ingredients?.takeIf { it.isNotBlank() }?.let { ing ->
-            Card(Modifier.fillMaxWidth()) {
+            Card(Modifier.fillMaxWidth(), border = BorderStroke(1.dp, Gold.copy(alpha = 0.4f)), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
                 Column(Modifier.padding(16.dp)) {
                     TextButton(onClick = { showIngredients = !showIngredients }) {
                         Text(if (showIngredients) L("📋 Hide ingredients", "📋 Zutaten ausblenden") else L("📋 Show ingredients", "📋 Zutaten anzeigen"))

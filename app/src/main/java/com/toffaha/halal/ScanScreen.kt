@@ -95,7 +95,7 @@ fun ScanScreen(state: AppState) {
                 // aiming frame
                 Box(
                     Modifier.fillMaxWidth(0.8f).height(150.dp)
-                        .border(BorderStroke(3.dp, Color.White.copy(alpha = 0.85f)), RoundedCornerShape(16.dp))
+                        .border(BorderStroke(3.dp, Gold), RoundedCornerShape(16.dp))
                 )
                 Text(
                     L("Point the camera at the barcode", "Kamera auf den Barcode richten"),

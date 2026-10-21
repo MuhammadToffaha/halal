@@ -1,5 +1,6 @@
 package com.toffaha.halal
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -9,6 +10,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
+import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
@@ -25,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun SourcesScreen(state: AppState) {
+fun SourcesScreen(state: AppState, onBack: () -> Unit) {
     val ctx = LocalContext.current
     val d = state.data
     LazyColumn(
@@ -33,11 +35,18 @@ fun SourcesScreen(state: AppState) {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         item {
-            Text(L("📚 Halal sources", "📚 Halal-Quellen"), fontWeight = FontWeight.Bold, fontSize = 18.sp, modifier = Modifier.padding(top = 12.dp))
+            TextButton(onClick = onBack, modifier = Modifier.padding(top = 4.dp)) {
+                Text(L("← ⚙️ Settings", "← ⚙️ Einstellungen"))
+            }
+            SectionTitle(L("📚 Halal sources", "📚 Halal-Quellen"))
             Text(L("European certifiers & references. Use 🔎 Search tab to search inside them.", "Europäische Zertifizierer & Referenzen. Im 🔎 Suche-Tab kannst du darin suchen."), fontSize = 13.sp)
         }
         items(d.resources) { r ->
-            Card(Modifier.fillMaxWidth()) {
+            Card(
+                Modifier.fillMaxWidth(),
+                border = BorderStroke(1.dp, Gold.copy(alpha = 0.45f)),
+                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)
+            ) {
                 Column(Modifier.padding(12.dp)) {
                     Text("${r.country} ${r.name}", fontWeight = FontWeight.SemiBold)
                     if (r.description.isNotBlank()) Text(r.description, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
