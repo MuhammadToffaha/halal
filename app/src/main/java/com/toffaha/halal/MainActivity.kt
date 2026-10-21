@@ -84,9 +84,20 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
     fun lookup(raw: String) {
         val code = raw.filter { it.isDigit() }
         if (code.length < 6) { error = "⚠️ Barcode looks invalid"; return }
+        val listed = data.find(code)
+        if (listed != null) {
+            // ⚡ instant answer from the on-phone list, then enrich with ingredients in the background
+            error = null
+            result = Analyzer.analyze(code, null, listed, data.rules)
+            scope.launch {
+                val product = runCatching { withContext(Dispatchers.IO) { OpenFoodFacts.product(code) } }.getOrNull()
+                    ?: return@launch
+                if (result?.barcode == code) result = Analyzer.analyze(code, product, listed, data.rules)
+            }
+            return
+        }
         scope.launch {
             loading = true; error = null
-            val listed = data.find(code)
             try {
                 val product = withContext(Dispatchers.IO) { OpenFoodFacts.product(code) }
                 result = Analyzer.analyze(code, product, listed, data.rules)
