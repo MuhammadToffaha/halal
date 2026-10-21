@@ -9,18 +9,18 @@
 },
 "by_store": {
 "Carrefour": 28,
-"Edeka": 19,
+"EDEKA": 25,
+"REWE": 22,
 "Delhaize": 17,
 "Kaufland": 16,
-"REWE": 13,
 "Amazon": 13,
 "Colruyt": 12,
 "Auchan": 11,
 "Coop": 10,
 "Match": 10,
-"Rewe": 9,
 "Magasins U": 9,
 "Woolworths": 9,
+"Netto": 9,
 "carrefour.fr": 8,
 "Jumbo": 7
 }
@@ -1264,7 +1264,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/20412074",
-"stores": "LIDL"
+"stores": "Lidl"
 },
 {
 "barcode": "8805957017345",
@@ -1404,7 +1404,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/3838975566576",
-"stores": "Rewe"
+"stores": "REWE"
 },
 {
 "barcode": "8005709204959",
@@ -1914,7 +1914,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/1230000147743",
-"stores": "Rewe"
+"stores": "REWE"
 },
 {
 "barcode": "1240000005226",
@@ -1934,7 +1934,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8011033008064",
-"stores": "Edeka"
+"stores": "EDEKA"
 },
 {
 "barcode": "8011033010104",
@@ -2194,7 +2194,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4006952008114",
-"stores": "Netto Marken-Discount"
+"stores": "Netto"
 },
 {
 "barcode": "4006952007940",
@@ -2624,7 +2624,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4045500011848",
-"stores": "Metro"
+"stores": "METRO"
 },
 {
 "barcode": "4027394007589",
@@ -2944,7 +2944,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5410976826019",
-"stores": "Carrefour, Rewe, Noz"
+"stores": "Carrefour, REWE, Noz"
 },
 {
 "barcode": "5410976675013",
@@ -2954,7 +2954,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5410976675013",
-"stores": "Rewe"
+"stores": "REWE"
 },
 {
 "barcode": "0837328000005",
@@ -3224,7 +3224,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4251097408057",
-"stores": "EDEKA, Rewe, Normal"
+"stores": "EDEKA, REWE, Normal"
 },
 {
 "barcode": "8600114006930",
@@ -3874,7 +3874,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4005500310105",
-"stores": "Rewe, Real, Kaufland, Penny, Edeka"
+"stores": "REWE, real, Kaufland, PENNY, EDEKA"
 },
 {
 "barcode": "44105422",
@@ -4064,7 +4064,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4260745710060",
-"stores": "Aldi"
+"stores": "ALDI"
 },
 {
 "barcode": "4260745710008",
@@ -4074,7 +4074,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4260745710008",
-"stores": "Aldi, Aldi Süd"
+"stores": "ALDI, Aldi Süd"
 },
 {
 "barcode": "4026279976255",
@@ -4244,7 +4244,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4251313800108",
-"stores": "Edeka"
+"stores": "EDEKA"
 },
 {
 "barcode": "4607086730171",
@@ -4334,7 +4334,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8801043022705",
-"stores": "supermarché asiatique, Rewe, Tamda, Carrefour, Спар"
+"stores": "supermarché asiatique, REWE, Tamda, Carrefour, Спар"
 },
 {
 "barcode": "8801043043441",
@@ -4794,7 +4794,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8801073113428",
-"stores": "Netto, Rewe"
+"stores": "Netto, REWE"
 },
 {
 "barcode": "8801073411395",
@@ -5004,7 +5004,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4009097010349",
-"stores": "NETTO"
+"stores": "Netto"
 },
 {
 "barcode": "4009097010479",
@@ -5014,7 +5014,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4009097010479",
-"stores": "NETTO"
+"stores": "Netto"
 },
 {
 "barcode": "9346976000349",
@@ -5304,7 +5304,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/29020805",
-"stores": "Aldi, Aldi Nord, Trader Joe's"
+"stores": "ALDI, ALDI Nord, Trader Joe's"
 },
 {
 "barcode": "5017689020378",
@@ -5454,7 +5454,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390024238",
-"stores": "Delhaize, Edeka, Amazon, Carrefour, Colruyt, Match"
+"stores": "Delhaize, EDEKA, Amazon, Carrefour, Colruyt, Match"
 },
 {
 "barcode": "5202390021121",
@@ -5464,7 +5464,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390021121",
-"stores": "Delhaize, Colruyt, Edeka, Amazon, Carrefour, Cora"
+"stores": "Delhaize, Colruyt, EDEKA, Amazon, Carrefour, Cora"
 },
 {
 "barcode": "5202390021510",
@@ -5474,7 +5474,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390021510",
-"stores": "Carrefour, Amazon, Delhaize, Colruyt, Edeka, Match"
+"stores": "Carrefour, Amazon, Delhaize, Colruyt, EDEKA, Match"
 },
 {
 "barcode": "5202390024368",
@@ -5494,7 +5494,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390024597",
-"stores": "Delhaize, Colruyt, Carrefour, Edeka, Amazon, Match"
+"stores": "Delhaize, Colruyt, Carrefour, EDEKA, Amazon, Match"
 },
 {
 "barcode": "5202390019319",
@@ -5504,7 +5504,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390019319",
-"stores": "Delhaize, Edeka, Amazon, Carrefour, Colruyt, Match"
+"stores": "Delhaize, EDEKA, Amazon, Carrefour, Colruyt, Match"
 },
 {
 "barcode": "5202390018855",
@@ -5514,7 +5514,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390018855",
-"stores": "Colruyt, Carrefour, Edeka, Amazon, Delhaize, Match"
+"stores": "Colruyt, Carrefour, EDEKA, Amazon, Delhaize, Match"
 },
 {
 "barcode": "5202390024221",
@@ -5524,7 +5524,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390024221",
-"stores": "Colruyt, Carrefour, Edeka, Amazon, Delhaize, Match"
+"stores": "Colruyt, Carrefour, EDEKA, Amazon, Delhaize, Match"
 },
 {
 "barcode": "5202390015885",
@@ -5534,7 +5534,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390015885",
-"stores": "Amazon, Delhaize, Colruyt, Carrefour, Edeka, Match"
+"stores": "Amazon, Delhaize, Colruyt, Carrefour, EDEKA, Match"
 },
 {
 "barcode": "5202390024214",
@@ -5544,7 +5544,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390024214",
-"stores": "Colruyt, Carrefour, Edeka, Delhaize, Amazon, Match"
+"stores": "Colruyt, Carrefour, EDEKA, Delhaize, Amazon, Match"
 },
 {
 "barcode": "5202390016325",
@@ -5554,7 +5554,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390016325",
-"stores": "Edeka, Carrefour, Amazon, Colruyt, Delhaize, Cora"
+"stores": "EDEKA, Carrefour, Amazon, Colruyt, Delhaize, Cora"
 },
 {
 "barcode": "5202390015878",
@@ -5564,7 +5564,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/5202390015878",
-"stores": "Delhaize, Colruyt, Carrefour, Edeka, Amazon, Match"
+"stores": "Delhaize, Colruyt, Carrefour, EDEKA, Amazon, Match"
 },
 {
 "barcode": "5202390023224",
@@ -5644,7 +5644,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4019467483109",
-"stores": "NETTO"
+"stores": "Netto"
 },
 {
 "barcode": "4019467470505",
@@ -5674,7 +5674,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4019467470000",
-"stores": "Edeka"
+"stores": "EDEKA"
 },
 {
 "barcode": "4019467438307",
@@ -5704,7 +5704,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4019467438208",
-"stores": "Edeka"
+"stores": "EDEKA"
 },
 {
 "barcode": "4019467470703",
@@ -5794,7 +5794,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4013138010625",
-"stores": "NETTO"
+"stores": "Netto"
 },
 {
 "barcode": "4013138014302",
@@ -5824,7 +5824,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4031446820453",
-"stores": "NETTO"
+"stores": "Netto"
 },
 {
 "barcode": "4027394004137",
@@ -6064,7 +6064,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8852018101079",
-"stores": "Edeka, Magasins U, Kaufland"
+"stores": "EDEKA, Magasins U, Kaufland"
 },
 {
 "barcode": "8852018101024",
@@ -6074,7 +6074,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8852018101024",
-"stores": "Edeka, Irma.dk, Kaufland, carrefour.fr, Rewe, Go Asia"
+"stores": "EDEKA, Irma.dk, Kaufland, carrefour.fr, REWE, Go Asia"
 },
 {
 "barcode": "8852018101062",
@@ -6084,7 +6084,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/8852018101062",
-"stores": "Edeka, Magasins U, Kaufland"
+"stores": "EDEKA, Magasins U, Kaufland"
 },
 {
 "barcode": "4251235831013",
@@ -6224,7 +6224,7 @@
 "source": "Halal label (Open Food Facts)",
 "note": "",
 "url": "https://world.openfoodfacts.org/product/4002566002111",
-"stores": "Netto Marken-Discount"
+"stores": "Netto"
 },
 {
 "barcode": "10270602",
