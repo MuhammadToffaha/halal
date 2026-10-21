@@ -41,7 +41,8 @@ object Analyzer {
             var t = text
             for (ex in rule.except) t = t.replace(ex, " ")
             val hit = rule.match.firstOrNull { matches(t, it) } ?: continue
-            out += Finding(rule.level, rule.label, rule.note, hit.removePrefix("="))
+            val level = if (product.cosmetic) rule.cosmeticLevel ?: rule.level else rule.level
+            out += Finding(level, rule.label, rule.note, hit.removePrefix("="))
         }
         val meatHit = out.any { it.label.contains("meat", true) || it.label.contains("Fleisch", true) }
         if (!meatHit && product.categories.any { it in meatCategories }) {
@@ -55,14 +56,17 @@ object Analyzer {
         val reasons = mutableListOf<String>()
 
         if (listed != null) {
+            val auto = listed.source.contains("Facts", true)
             val v = when (listed.status) {
-                "halal" -> Verdict.HALAL_LISTED
+                "halal" -> if (auto) Verdict.HALAL_CERTIFIED else Verdict.HALAL_LISTED
                 "haram" -> Verdict.HARAM
                 else -> Verdict.DOUBTFUL
             }
             reasons += "📗 Halal database: ${listed.status.uppercase()}" +
                 (if (listed.source.isNotBlank()) " · source: ${listed.source}" else "")
             if (listed.note.isNotBlank()) reasons += "📝 ${listed.note}"
+            if (listed.stores.isNotBlank()) reasons += "🏪 Sold at: ${listed.stores}"
+            if (auto) reasons += "👀 Confirm the certifier logo on the package."
             return ScanResult(barcode, v, product, listed, findings, reasons)
         }
 
@@ -84,6 +88,7 @@ object Analyzer {
         }
         if (verdict == Verdict.NO_HARAM_FOUND) {
             if (product.analysis.contains("en:vegan")) reasons += "🌱 Marked vegan"
+            if (product.cosmetic) reasons += "💄 Cosmetic product (Open Beauty Facts)"
             reasons += "ℹ️ No halal certificate known for this product."
         }
         return ScanResult(barcode, verdict, product, null, findings, reasons)

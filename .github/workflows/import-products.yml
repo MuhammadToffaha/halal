@@ -1,0 +1,51 @@
+name: 🏷️ Import halal products (Germany)
+
+on:
+  schedule:
+    - cron: "17 3 * * 1"   # every Monday 03:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/import_off.py"
+      - ".github/workflows/import-products.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: import-products
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v5
+      - name: Download halal-labelled products
+        run: python3 scripts/import_off.py | tee import.log
+      - name: Summary
+        if: always()
+        run: |
+          python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          f = "data/off_halal.json"
+          if os.path.exists(f):
+              s = json.load(open(f, encoding="utf-8")).get("stats", {})
+              print("## 🏷️ Halal products imported:", s.get("total"))
+              print("By source:", s.get("by_source"))
+              print("\n| Store | Products |\n|---|---|")
+              for k, v in (s.get("by_store") or {}).items(): print(f"| {k} | {v} |")
+              print(f"::notice::Imported {s.get('total')} products {s.get('by_source')}")
+          PY
+          tail -1 import.log | sed 's/^/::notice::/'
+      - name: Commit to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/off_halal.json
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "🏷️ Weekly halal product import"
+          git pull --rebase -q origin main
+          git push

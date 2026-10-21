@@ -113,8 +113,8 @@ fun ResultScreen(r: ScanResult, state: AppState) {
             Text("📷 Scan next product", fontSize = 16.sp)
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-            OutlinedButton(onClick = { ctx.openUrl(OpenFoodFacts.productUrl(r.barcode)) }, modifier = Modifier.weight(1f)) {
-                Text("🌐 Open Food Facts")
+            OutlinedButton(onClick = { ctx.openUrl(OpenFoodFacts.productUrl(r.barcode, r.product?.cosmetic == true)) }, modifier = Modifier.weight(1f)) {
+                Text(if (r.product?.cosmetic == true) "🌐 Beauty Facts" else "🌐 Open Food Facts")
             }
             OutlinedButton(onClick = { ctx.openUrl(reportUrl(r)) }, modifier = Modifier.weight(1f)) {
                 Text("📝 Add / correct")

@@ -24,18 +24,24 @@ class DataRepo(private val ctx: Context) {
         private set
     var productsUpdated by mutableStateOf("")
         private set
+    /** auto-imported halal-labelled products (data/off_halal.json, refreshed weekly by GitHub Actions) */
+    var imported by mutableStateOf<List<Listed>>(emptyList())
+        private set
+    var importedUpdated by mutableStateOf("")
+        private set
+    private var index: Map<String, Listed> = emptyMap()
     var lastSync by mutableStateOf<String?>(null)
         private set
 
-    private val files = listOf("rules.json", "products.json", "resources.json")
+    private val files = listOf("rules.json", "products.json", "resources.json", "off_halal.json")
 
     suspend fun loadLocal() {
         for (name in files) {
             val txt = withContext(Dispatchers.IO) {
                 val cached = File(ctx.filesDir, name)
-                val fromCache = runCatching { cached.readText().also { JSONObject(it) } }.getOrNull()
-                fromCache ?: ctx.assets.open(name).bufferedReader().use { it.readText() }
-            }
+                runCatching { cached.readText().also { JSONObject(it) } }.getOrNull()
+                    ?: runCatching { ctx.assets.open(name).bufferedReader().use { it.readText() } }.getOrNull()
+            } ?: continue
             runCatching { apply(name, txt) }
         }
     }
@@ -57,16 +63,21 @@ class DataRepo(private val ctx: Context) {
     }
 
     fun find(code: String): Listed? {
-        val c = code.trimStart('0')
-        return products.firstOrNull { it.barcode.trimStart('0') == c }
+        return index[code.trimStart('0')]
     }
 
     fun searchListed(q: String): List<Listed> {
         val s = q.trim().lowercase()
         if (s.isEmpty()) return emptyList()
-        return products.filter {
-            it.name.lowercase().contains(s) || it.brand.lowercase().contains(s) || it.barcode.contains(s)
-        }
+        return (products + imported).asSequence().filter {
+            it.name.lowercase().contains(s) || it.brand.lowercase().contains(s) ||
+                it.barcode.contains(s) || it.stores.lowercase().contains(s)
+        }.distinctBy { it.barcode }.take(100).toList()
+    }
+
+    private fun reindex() {
+        // your manual list wins over the auto-import
+        index = (imported + products).associateBy { it.barcode.trimStart('0') }
     }
 
     private fun apply(name: String, txt: String) {
@@ -82,23 +93,24 @@ class DataRepo(private val ctx: Context) {
                         match = r.optJSONArray("match").strings().map { it.lowercase() },
                         except = r.optJSONArray("except").strings().map { it.lowercase() },
                         veganOk = r.optBoolean("vegan_ok", false),
+                        cosmeticLevel = when (r.str("cosmetic_level").lowercase()) {
+                            "haram" -> Level.HARAM
+                            "doubtful" -> Level.DOUBTFUL
+                            else -> null
+                        },
                     )
                 }
                 rulesVersion = o.str("version")
             }
             "products.json" -> {
-                products = o.optJSONArray("products").objects().map { p ->
-                    Listed(
-                        barcode = p.str("barcode"),
-                        name = p.str("name"),
-                        brand = p.str("brand"),
-                        status = p.str("status").lowercase(),
-                        source = p.str("source"),
-                        note = p.str("note"),
-                        url = p.str("url"),
-                    )
-                }.filter { it.barcode.isNotBlank() }
+                products = parseListed(o)
                 productsUpdated = o.str("updated")
+                reindex()
+            }
+            "off_halal.json" -> {
+                imported = parseListed(o)
+                importedUpdated = o.str("updated")
+                reindex()
             }
             "resources.json" -> {
                 resources = o.optJSONArray("resources").objects().map { r ->
@@ -107,4 +119,18 @@ class DataRepo(private val ctx: Context) {
             }
         }
     }
+
+    private fun parseListed(o: JSONObject): List<Listed> =
+        o.optJSONArray("products").objects().map { p ->
+            Listed(
+                barcode = p.str("barcode"),
+                name = p.str("name"),
+                brand = p.str("brand"),
+                status = p.str("status").lowercase().ifBlank { "halal" },
+                source = p.str("source"),
+                note = p.str("note"),
+                url = p.str("url"),
+                stores = p.str("stores"),
+            )
+        }.filter { it.barcode.isNotBlank() }
 }

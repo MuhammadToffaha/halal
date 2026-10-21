@@ -51,6 +51,7 @@ fun SourcesScreen(state: AppState) {
                     Text("⚙️ App & data", fontWeight = FontWeight.Bold)
                     Text("📱 Version ${BuildConfig.VERSION_NAME}")
                     Text("📗 Halal database: ${d.products.size} products" + (if (d.productsUpdated.isNotBlank()) " · ${d.productsUpdated}" else ""))
+                    Text("🏷️ Halal-labelled in Germany (auto): ${d.imported.size}" + (if (d.importedUpdated.isNotBlank()) " · ${d.importedUpdated}" else ""))
                     Text("🧪 Ingredient rules: ${d.rules.size}" + (if (d.rulesVersion.isNotBlank()) " · ${d.rulesVersion}" else ""))
                     d.lastSync?.let { Text("🔄 Synced from GitHub: $it", fontSize = 13.sp) }
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {

@@ -14,6 +14,8 @@ data class Rule(
     val match: List<String>,
     val except: List<String>,
     val veganOk: Boolean,
+    /** level used for cosmetics (null = same as food); e.g. alcohol in cosmetics is only doubtful */
+    val cosmeticLevel: Level? = null,
 )
 
 /** One verified entry from data/products.json */
@@ -25,6 +27,7 @@ data class Listed(
     val source: String,
     val note: String,
     val url: String,
+    val stores: String = "",
 )
 
 /** One source from data/resources.json */
@@ -47,6 +50,7 @@ data class Product(
     val additives: List<String>,
     val analysis: List<String>,
     val categories: List<String>,
+    val cosmetic: Boolean = false,
 )
 
 data class Finding(val level: Level, val label: String, val note: String, val matched: String)
@@ -58,7 +62,7 @@ enum class Verdict(val emoji: String, val title: String, val subtitle: String, v
     DOUBTFUL("🟠", "DOUBTFUL · Mashbooh", "Contains questionable ingredients", 0xFFE67E00),
     HARAM("⛔", "NOT HALAL", "Contains haram ingredients", 0xFFC62828),
     UNKNOWN("❔", "Unknown", "No ingredient list available", 0xFF607D8B),
-    NOT_FOUND("❔", "Product not found", "Not in Open Food Facts or Halal database", 0xFF607D8B),
+    NOT_FOUND("❔", "Product not found", "Not in Open Food / Beauty Facts or Halal database", 0xFF607D8B),
 }
 
 data class ScanResult(

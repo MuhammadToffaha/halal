@@ -9,16 +9,19 @@ object OpenFoodFacts {
             "ingredients_text,ingredients_text_de,ingredients_text_en,ingredients_text_fr,ingredients_text_nl," +
             "labels_tags,additives_tags,ingredients_analysis_tags,categories_tags"
 
-    /** @return null if the barcode is not in the database */
-    fun product(code: String): Product? {
+    /** Food first, then Open Beauty Facts (cosmetics from dm / Rossmann). @return null if in neither */
+    fun product(code: String): Product? =
+        product(Config.OFF, code, false) ?: runCatching { product(Config.OBF, code, true) }.getOrNull()
+
+    private fun product(base: String, code: String, cosmetic: Boolean): Product? {
         val txt = try {
-            Net.get("${Config.OFF}/api/v2/product/${Net.enc(code)}.json?fields=$FIELDS")
+            Net.get("$base/api/v2/product/${Net.enc(code)}.json?fields=$FIELDS")
         } catch (e: Net.HttpError) {
             if (e.code == 404) return null else throw e
         }
         val o = JSONObject(txt)
         if (o.optInt("status", 0) != 1) return null
-        return parse(o.optJSONObject("product") ?: return null, code)
+        return parse(o.optJSONObject("product") ?: return null, code).copy(cosmetic = cosmetic)
     }
 
     fun search(q: String): List<Product> {
@@ -28,7 +31,8 @@ object OpenFoodFacts {
         return o.optJSONArray("products").objects().map { parse(it, "") }.filter { it.code.isNotBlank() }
     }
 
-    fun productUrl(code: String) = "${Config.OFF}/product/$code"
+    fun productUrl(code: String, cosmetic: Boolean = false) =
+        "${if (cosmetic) Config.OBF else Config.OFF}/product/$code"
 
     private fun parse(p: JSONObject, fallbackCode: String): Product {
         val name = listOf("product_name_de", "product_name", "product_name_en")

@@ -9,4 +9,6 @@ object Config {
     const val LATEST_RELEASE_API = "https://api.github.com/repos/$OWNER/$REPO/releases/latest"
     const val USER_AGENT = "HalalScanner/1.0 (Android; $REPO_URL)"
     const val OFF = "https://world.openfoodfacts.org"
+    /** cosmetics & drugstore (dm, Rossmann) */
+    const val OBF = "https://world.openbeautyfacts.org"
 }

@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-20",
-  "_help": "Ingredient rules. match: text contained in the ingredient list (lowercase). '=word' = whole word only. except: phrases removed before matching. vegan_ok: skip rule if product is marked vegan/vegetarian on Open Food Facts. Edit on GitHub -> app picks it up automatically.",
+  "version": "2026-10-21",
+  "_help": "Ingredient rules. match: text contained in the ingredient list (lowercase). '=word' = whole word only. except: phrases removed before matching. vegan_ok: skip rule if product is marked vegan/vegetarian on Open Food Facts. Edit on GitHub -> app picks it up automatically. cosmetic_level: level used for cosmetics (Open Beauty Facts).",
   "rules": [
     {
       "id": "pork",
@@ -20,7 +20,9 @@
         "=jambon",
         "prosciutto",
         "pancetta",
-        "=ham"
+        "=ham",
+        "porcine",
+        "=sus scrofa"
       ],
       "except": []
     },
@@ -93,7 +95,7 @@
       "id": "alcohol",
       "level": "haram",
       "label": "Alcohol / Alkohol",
-      "note": "Alcohol as an ingredient is not permitted by European halal certifiers.",
+      "note": "Alcohol as an ingredient is not permitted by European halal certifiers. In cosmetics (external use) many scholars accept synthetic alcohol — shown as doubtful.",
       "match": [
         "alkohol",
         "alcohol",
@@ -150,7 +152,8 @@
         "bierhefe",
         "brewer's yeast",
         "beer yeast"
-      ]
+      ],
+      "cosmetic_level": "doubtful"
     },
     {
       "id": "carmine",
@@ -419,7 +422,8 @@
         "vegetarisch",
         "veggie",
         "rindergelatine"
-      ]
+      ],
+      "cosmetic_level": "doubtful"
     },
     {
       "id": "flavour-alcohol-carrier",
@@ -433,7 +437,8 @@
         "wein-aroma",
         "weinaroma"
       ],
-      "except": []
+      "except": [],
+      "cosmetic_level": "doubtful"
     },
     {
       "id": "shellfish-lab-insects",

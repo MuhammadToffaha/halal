@@ -72,7 +72,7 @@ fun SearchScreen(state: AppState) {
             OutlinedTextField(
                 value = query,
                 onValueChange = { query = it },
-                label = { Text("🔎 Product, brand or barcode") },
+                label = { Text("🔎 Product, brand, shop or barcode") },
                 singleLine = true,
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                 keyboardActions = KeyboardActions(onSearch = { run() }),
@@ -105,7 +105,10 @@ fun SearchScreen(state: AppState) {
                     Column(Modifier.padding(12.dp)) {
                         val icon = when (l.status) { "halal" -> "✅"; "haram" -> "⛔"; else -> "🟠" }
                         Text("$icon ${l.name}", fontWeight = FontWeight.SemiBold)
-                        Text("${l.brand} · ${l.source}", fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(
+                            listOf(l.brand, l.stores.ifBlank { l.source }).filter { it.isNotBlank() }.joinToString(" · "),
+                            fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
                     }
                 }
             }

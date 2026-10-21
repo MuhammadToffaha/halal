@@ -13,7 +13,8 @@ This GitHub repo is the **central place** for everything: code, halal database, 
 | Order | Source | Result |
 |---|---|---|
 | 1️⃣ | `data/products.json` — your verified list (with certifier) | ✅ / ⛔ / 🟠 |
-| 2️⃣ | Halal certification label on the product (Open Food Facts) | ✅ HALAL |
+| 2️⃣ | `data/off_halal.json` — every halal-labelled product sold in Germany (auto, weekly) | ✅ HALAL |
+| 2️⃣b | Halal label on the scanned product (Open Food Facts / Open Beauty Facts live) | ✅ HALAL |
 | 3️⃣ | Ingredient check with `data/rules.json` | ⛔ / 🟠 / 🟢 |
 
 - ⛔ **Not halal** — pork, gelatine (pork in DE), alcohol, carmine E120, blood
@@ -26,11 +27,17 @@ This GitHub repo is the **central place** for everything: code, halal database, 
 ## 🗂️ Repo layout
 ```
 data/products.json    📗 verified products  (edit → app syncs live, no new APK)
+data/off_halal.json   🏷️ AUTO weekly import: halal-labelled products in Germany (food + dm/Rossmann cosmetics, with shops)
 data/rules.json       🧪 ingredient rules   (edit → app syncs live)
+scripts/import_off.py 🤖 the importer (Actions → "Import halal products" → Run workflow to refresh now)
 data/resources.json   📚 sources + "search inside" links
 app/                  📱 Android app (Kotlin, Jetpack Compose, CameraX, ML Kit)
 .github/workflows/    🤖 build APK + release, validate data
 ```
+
+## 🏪 Which products are covered?
+- 🔍 **Any barcode** in German supermarkets and drugstores (REWE, EDEKA, ALDI, Lidl, Kaufland, dm, Rossmann…) is looked up live in Open Food Facts (food) and Open Beauty Facts (cosmetics), then checked.
+- 🏷️ **Halal-labelled ones** are also saved in the repo (`off_halal.json`), searchable by name, brand or shop, and work offline.
 
 ## ➕ Add a product
 Edit `data/products.json` on GitHub:
