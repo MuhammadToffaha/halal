@@ -93,6 +93,8 @@ class DataRepo(private val ctx: Context) {
                         match = r.optJSONArray("match").strings().map { it.lowercase() },
                         except = r.optJSONArray("except").strings().map { it.lowercase() },
                         veganOk = r.optBoolean("vegan_ok", false),
+                        labelDe = r.str("label_de"),
+                        noteDe = r.str("note_de"),
                         cosmeticLevel = when (r.str("cosmetic_level").lowercase()) {
                             "haram" -> Level.HARAM
                             "doubtful" -> Level.DOUBTFUL

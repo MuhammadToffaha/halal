@@ -45,6 +45,7 @@ import kotlinx.coroutines.withContext
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        Lang.init(this)
         setContent { HalalTheme { HalalApp() } }
     }
 }
@@ -64,7 +65,7 @@ fun Context.openUrl(url: String) {
     try {
         startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK))
     } catch (e: Exception) {
-        Toast.makeText(this, "No app to open link", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, L("No app to open link", "Keine App zum Öffnen des Links"), Toast.LENGTH_SHORT).show()
     }
 }
 
@@ -83,7 +84,7 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
 
     fun lookup(raw: String) {
         val code = raw.filter { it.isDigit() }
-        if (code.length < 6) { error = "⚠️ Barcode looks invalid"; return }
+        if (code.length < 6) { error = L("⚠️ Barcode looks invalid", "⚠️ Barcode scheint ungültig"); return }
         val listed = data.find(code)
         if (listed != null) {
             // ⚡ instant answer from the on-phone list, then enrich with ingredients in the background
@@ -103,7 +104,7 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
                 result = Analyzer.analyze(code, product, listed, data.rules)
             } catch (e: Exception) {
                 if (listed != null) result = Analyzer.analyze(code, null, listed, data.rules)
-                else error = "📶 No connection to product database — try again"
+                else error = L("📶 No connection to product database — try again", "📶 Keine Verbindung zur Produktdatenbank — nochmal versuchen")
             } finally {
                 loading = false
                 if (result == null) scanEpoch++
@@ -119,14 +120,14 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
 
     fun checkUpdate(manual: Boolean) {
         scope.launch {
-            if (manual) updateMsg = "🔄 Checking…"
+            if (manual) updateMsg = L("🔄 Checking…", "🔄 Prüfe…")
             try {
                 val r = withContext(Dispatchers.IO) { Updater.latest() }
                 if (r != null && r.code > BuildConfig.VERSION_CODE) {
                     release = r; updateMsg = null
-                } else if (manual) updateMsg = "✅ You have the latest version"
+                } else if (manual) updateMsg = L("✅ You have the latest version", "✅ Du hast die neueste Version")
             } catch (e: Exception) {
-                if (manual) updateMsg = "📶 Could not reach GitHub"
+                if (manual) updateMsg = L("📶 Could not reach GitHub", "📶 GitHub nicht erreichbar")
             }
         }
     }
@@ -140,9 +141,9 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
                 val file = withContext(Dispatchers.IO) {
                     Updater.download(ctx, r.apkUrl) { p -> scope.launch { updateProgress = p } }
                 }
-                if (!Updater.install(ctx, file)) updateMsg = "🔓 Allow installs from Halal, then tap Update again"
+                if (!Updater.install(ctx, file)) updateMsg = L("🔓 Allow installs from Halal, then tap Update again", "🔓 Installation für Halal erlauben, dann erneut auf Update tippen")
             } catch (e: Exception) {
-                updateMsg = "❌ Download failed"
+                updateMsg = L("❌ Download failed", "❌ Download fehlgeschlagen")
             } finally {
                 updateProgress = null
             }
@@ -152,13 +153,16 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
     fun syncData() {
         scope.launch {
             val ok = data.refresh()
-            Toast.makeText(ctx, if (ok) "✅ Data updated from GitHub" else "📶 Using offline data", Toast.LENGTH_SHORT).show()
+            Toast.makeText(ctx, if (ok) L("✅ Data updated from GitHub", "✅ Daten von GitHub aktualisiert") else L("📶 Using offline data", "📶 Offline-Daten werden genutzt"), Toast.LENGTH_SHORT).show()
         }
     }
 }
 
-enum class Tab(val icon: String, val label: String) {
-    SCAN("📷", "Scan"), SEARCH("🔎", "Search"), SOURCES("📚", "Sources")
+enum class Tab(val icon: String, private val en: String, private val de: String) {
+    SCAN("📷", "Scan", "Scannen"), SEARCH("🔎", "Search", "Suche"),
+    SOURCES("📚", "Sources", "Quellen"), SETTINGS("⚙️", "Settings", "Einstellungen");
+
+    val label get() = L(en, de)
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -192,7 +196,7 @@ fun HalalApp() {
                         selected = tab == t,
                         onClick = { tab = t; state.close() },
                         icon = { Text(t.icon, fontSize = 22.sp) },
-                        label = { Text(t.label) }
+                        label = { Text(t.label, maxLines = 1, fontSize = 11.sp) }
                     )
                 }
             }
@@ -206,7 +210,8 @@ fun HalalApp() {
                     r != null -> ResultScreen(r, state)
                     tab == Tab.SCAN -> ScanScreen(state)
                     tab == Tab.SEARCH -> SearchScreen(state)
-                    else -> SourcesScreen(state)
+                    tab == Tab.SOURCES -> SourcesScreen(state)
+                    else -> SettingsScreen(state)
                 }
             }
         }

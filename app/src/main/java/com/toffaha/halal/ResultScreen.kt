@@ -50,13 +50,13 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         ) {
             Column(Modifier.fillMaxWidth().padding(20.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text(r.verdict.emoji, fontSize = 56.sp)
-                Text(r.verdict.title, color = Color.White, fontSize = 26.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
-                Text(r.verdict.subtitle, color = Color.White.copy(alpha = 0.9f), textAlign = TextAlign.Center)
+                Text(r.verdict.titleL, color = Color.White, fontSize = 26.sp, fontWeight = FontWeight.Bold, textAlign = TextAlign.Center)
+                Text(r.verdict.subtitleL, color = Color.White.copy(alpha = 0.9f), textAlign = TextAlign.Center)
             }
         }
 
         // Product
-        val name = r.product?.name?.ifBlank { null } ?: r.listed?.name?.ifBlank { null } ?: "Unknown product"
+        val name = r.product?.name?.ifBlank { null } ?: r.listed?.name?.ifBlank { null } ?: L("Unknown product", "Unbekanntes Produkt")
         val brand = listOfNotNull(
             r.product?.brand?.ifBlank { null } ?: r.listed?.brand?.ifBlank { null },
             r.product?.quantity?.ifBlank { null }
@@ -72,10 +72,10 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         if (r.reasons.isNotEmpty()) {
             Card(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                    Text("💡 Why", fontWeight = FontWeight.Bold)
+                    Text(L("💡 Why", "💡 Warum"), fontWeight = FontWeight.Bold)
                     r.reasons.forEach { Text(it) }
                     r.listed?.url?.takeIf { it.isNotBlank() }?.let { u ->
-                        TextButton(onClick = { ctx.openUrl(u) }) { Text("📄 Open certificate / source") }
+                        TextButton(onClick = { ctx.openUrl(u) }) { Text(L("📄 Open certificate / source", "📄 Zertifikat / Quelle öffnen")) }
                     }
                 }
             }
@@ -84,7 +84,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         if (r.findings.isNotEmpty()) {
             Card(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Text("🧪 Ingredients flagged", fontWeight = FontWeight.Bold)
+                    Text(L("🧪 Ingredients flagged", "🧪 Auffällige Zutaten"), fontWeight = FontWeight.Bold)
                     r.findings.forEach { f ->
                         Row {
                             Text(if (f.level == Level.HARAM) "🔴 " else "🟠 ")
@@ -102,7 +102,7 @@ fun ResultScreen(r: ScanResult, state: AppState) {
             Card(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(16.dp)) {
                     TextButton(onClick = { showIngredients = !showIngredients }) {
-                        Text(if (showIngredients) "📋 Hide ingredients" else "📋 Show ingredients")
+                        Text(if (showIngredients) L("📋 Hide ingredients", "📋 Zutaten ausblenden") else L("📋 Show ingredients", "📋 Zutaten anzeigen"))
                     }
                     if (showIngredients) Text(ing, fontSize = 13.sp)
                 }
@@ -110,20 +110,24 @@ fun ResultScreen(r: ScanResult, state: AppState) {
         }
 
         Button(onClick = { state.close() }, modifier = Modifier.fillMaxWidth().height(52.dp)) {
-            Text("📷 Scan next product", fontSize = 16.sp)
+            Text(L("📷 Scan next product", "📷 Nächstes Produkt scannen"), fontSize = 16.sp)
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
             OutlinedButton(onClick = { ctx.openUrl(OpenFoodFacts.productUrl(r.barcode, r.product?.cosmetic == true)) }, modifier = Modifier.weight(1f)) {
-                Text(if (r.product?.cosmetic == true) "🌐 Beauty Facts" else "🌐 Open Food Facts")
+                Text(if (r.product?.cosmetic == true) "🌐 Beauty Facts" else "🌐 Food Facts")
             }
             OutlinedButton(onClick = { ctx.openUrl(reportUrl(r)) }, modifier = Modifier.weight(1f)) {
-                Text("📝 Add / correct")
+                Text(L("📝 Add / correct", "📝 Hinzufügen / korrigieren"))
             }
         }
 
         Text(
-            "⚖️ Guidance only. Certified status comes from the certifier (logo on pack or your Halal database). " +
-                "Ingredient checks follow common European halal-certifier criteria; when in doubt, ask the certifier or a scholar.",
+            L(
+                "⚖️ Guidance only. Certified status comes from the certifier (logo on pack or your Halal database). " +
+                    "Ingredient checks follow common European halal-certifier criteria; when in doubt, ask the certifier or a scholar.",
+                "⚖️ Nur zur Orientierung. Ein Zertifikat gibt nur der Zertifizierer (Logo auf der Packung oder deine Halal-Datenbank). " +
+                    "Die Zutatenprüfung folgt gängigen Kriterien europäischer Halal-Zertifizierer; im Zweifel Zertifizierer oder Gelehrten fragen."
+            ),
             fontSize = 12.sp,
             color = MaterialTheme.colorScheme.onSurfaceVariant
         )

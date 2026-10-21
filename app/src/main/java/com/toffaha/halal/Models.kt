@@ -16,6 +16,8 @@ data class Rule(
     val veganOk: Boolean,
     /** level used for cosmetics (null = same as food); e.g. alcohol in cosmetics is only doubtful */
     val cosmeticLevel: Level? = null,
+    val labelDe: String = "",
+    val noteDe: String = "",
 )
 
 /** One verified entry from data/products.json */
@@ -55,14 +57,27 @@ data class Product(
 
 data class Finding(val level: Level, val label: String, val note: String, val matched: String)
 
-enum class Verdict(val emoji: String, val title: String, val subtitle: String, val color: Long) {
-    HALAL_CERTIFIED("✅", "HALAL", "Halal certification label on product", 0xFF1E8E3E),
-    HALAL_LISTED("✅", "HALAL", "Confirmed in Halal database", 0xFF1E8E3E),
-    NO_HARAM_FOUND("🟢", "No haram ingredients found", "Not certified · based on ingredient check", 0xFF558B2F),
-    DOUBTFUL("🟠", "DOUBTFUL · Mashbooh", "Contains questionable ingredients", 0xFFE67E00),
-    HARAM("⛔", "NOT HALAL", "Contains haram ingredients", 0xFFC62828),
-    UNKNOWN("❔", "Unknown", "No ingredient list available", 0xFF607D8B),
-    NOT_FOUND("❔", "Product not found", "Not in Open Food / Beauty Facts or Halal database", 0xFF607D8B),
+enum class Verdict(
+    val emoji: String, val title: String, val subtitle: String, val color: Long,
+    private val titleDe: String, private val subtitleDe: String,
+) {
+    HALAL_CERTIFIED("✅", "HALAL", "Halal certification label on product", 0xFF1E8E3E,
+        "HALAL", "Halal-Siegel auf dem Produkt"),
+    HALAL_LISTED("✅", "HALAL", "Confirmed in Halal database", 0xFF1E8E3E,
+        "HALAL", "In der Halal-Datenbank bestätigt"),
+    NO_HARAM_FOUND("🟢", "No haram ingredients found", "Not certified · based on ingredient check", 0xFF558B2F,
+        "Keine Haram-Zutaten gefunden", "Nicht zertifiziert · basiert auf Zutatenprüfung"),
+    DOUBTFUL("🟠", "DOUBTFUL · Mashbooh", "Contains questionable ingredients", 0xFFE67E00,
+        "ZWEIFELHAFT · Mashbooh", "Enthält fragliche Zutaten"),
+    HARAM("⛔", "NOT HALAL", "Contains haram ingredients", 0xFFC62828,
+        "NICHT HALAL", "Enthält Haram-Zutaten"),
+    UNKNOWN("❔", "Unknown", "No ingredient list available", 0xFF607D8B,
+        "Unbekannt", "Keine Zutatenliste vorhanden"),
+    NOT_FOUND("❔", "Product not found", "Not in Open Food / Beauty Facts or Halal database", 0xFF607D8B,
+        "Produkt nicht gefunden", "Nicht in Open Food / Beauty Facts oder Halal-Datenbank");
+
+    val titleL get() = L(title, titleDe)
+    val subtitleL get() = L(subtitle, subtitleDe)
 }
 
 data class ScanResult(

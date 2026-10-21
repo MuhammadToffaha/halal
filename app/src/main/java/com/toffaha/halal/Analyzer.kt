@@ -42,11 +42,20 @@ object Analyzer {
             for (ex in rule.except) t = t.replace(ex, " ")
             val hit = rule.match.firstOrNull { matches(t, it) } ?: continue
             val level = if (product.cosmetic) rule.cosmeticLevel ?: rule.level else rule.level
-            out += Finding(level, rule.label, rule.note, hit.removePrefix("="))
+            out += Finding(
+                level,
+                L(rule.label, rule.labelDe.ifBlank { rule.label }),
+                L(rule.note, rule.noteDe.ifBlank { rule.note }),
+                hit.removePrefix("="),
+            )
         }
-        val meatHit = out.any { it.label.contains("meat", true) || it.label.contains("Fleisch", true) }
+        val meatHit = out.any { it.label.contains("meat", true) || it.label.contains("fleisch", true) }
         if (!meatHit && product.categories.any { it in meatCategories }) {
-            out += Finding(Level.DOUBTFUL, "Meat product", "Meat & poultry must come from halal slaughter (Zabiha).", "category")
+            out += Finding(
+                Level.DOUBTFUL, L("Meat product", "Fleischprodukt"),
+                L("Meat & poultry must come from halal slaughter (Zabiha).", "Fleisch & Geflügel müssen aus Halal-Schlachtung (Zabiha) stammen."),
+                "category"
+            )
         }
         return out.sortedBy { it.level.ordinal }
     }
@@ -62,11 +71,11 @@ object Analyzer {
                 "haram" -> Verdict.HARAM
                 else -> Verdict.DOUBTFUL
             }
-            reasons += "📗 Halal database: ${listed.status.uppercase()}" +
-                (if (listed.source.isNotBlank()) " · source: ${listed.source}" else "")
+            reasons += L("📗 Halal database: ", "📗 Halal-Datenbank: ") + listed.status.uppercase() +
+                (if (listed.source.isNotBlank()) L(" · source: ", " · Quelle: ") + listed.source else "")
             if (listed.note.isNotBlank()) reasons += "📝 ${listed.note}"
-            if (listed.stores.isNotBlank()) reasons += "🏪 Sold at: ${listed.stores}"
-            if (auto) reasons += "👀 Confirm the certifier logo on the package."
+            if (listed.stores.isNotBlank()) reasons += L("🏪 Sold at: ", "🏪 Erhältlich bei: ") + listed.stores
+            if (auto) reasons += L("👀 Confirm the certifier logo on the package.", "👀 Zertifizierer-Logo auf der Packung prüfen.")
             return ScanResult(barcode, v, product, listed, findings, reasons)
         }
 
@@ -74,9 +83,9 @@ object Analyzer {
 
         val halalLabels = product.labels.filter { it.contains("halal", true) }
         if (halalLabels.isNotEmpty()) {
-            reasons += "🏷️ Label on pack: " + halalLabels.joinToString { it.substringAfter(':').replace('-', ' ') }
-            reasons += "👀 Confirm the certifier logo on the package."
-            if (findings.isNotEmpty()) reasons += "⚠️ Ingredient check still flagged items below — verify."
+            reasons += L("🏷️ Label on pack: ", "🏷️ Siegel auf Packung: ") + halalLabels.joinToString { it.substringAfter(':').replace('-', ' ') }
+            reasons += L("👀 Confirm the certifier logo on the package.", "👀 Zertifizierer-Logo auf der Packung prüfen.")
+            if (findings.isNotEmpty()) reasons += L("⚠️ Ingredient check still flagged items below — verify.", "⚠️ Zutatenprüfung hat unten Punkte markiert — bitte prüfen.")
             return ScanResult(barcode, Verdict.HALAL_CERTIFIED, product, null, findings, reasons)
         }
 
@@ -87,9 +96,9 @@ object Analyzer {
             else -> Verdict.NO_HARAM_FOUND
         }
         if (verdict == Verdict.NO_HARAM_FOUND) {
-            if (product.analysis.contains("en:vegan")) reasons += "🌱 Marked vegan"
-            if (product.cosmetic) reasons += "💄 Cosmetic product (Open Beauty Facts)"
-            reasons += "ℹ️ No halal certificate known for this product."
+            if (product.analysis.contains("en:vegan")) reasons += L("🌱 Marked vegan", "🌱 Als vegan markiert")
+            if (product.cosmetic) reasons += L("💄 Cosmetic product (Open Beauty Facts)", "💄 Kosmetikprodukt (Open Beauty Facts)")
+            reasons += L("ℹ️ No halal certificate known for this product.", "ℹ️ Kein Halal-Zertifikat für dieses Produkt bekannt.")
         }
         return ScanResult(barcode, verdict, product, null, findings, reasons)
     }

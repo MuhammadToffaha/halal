@@ -60,9 +60,9 @@ fun SearchScreen(state: AppState) {
         scope.launch {
             try {
                 found = withContext(Dispatchers.IO) { OpenFoodFacts.search(q) }
-                if (found.isEmpty() && listed.isEmpty()) msg = "🤷 Nothing found — try German name or brand"
+                if (found.isEmpty() && listed.isEmpty()) msg = L("🤷 Nothing found — try German name or brand", "🤷 Nichts gefunden — deutschen Namen oder Marke versuchen")
             } catch (e: Exception) {
-                found = emptyList(); msg = "📶 Open Food Facts not reachable"
+                found = emptyList(); msg = L("📶 Open Food Facts not reachable", "📶 Open Food Facts nicht erreichbar")
             } finally { busy = false }
         }
     }
@@ -72,19 +72,19 @@ fun SearchScreen(state: AppState) {
             OutlinedTextField(
                 value = query,
                 onValueChange = { query = it },
-                label = { Text("🔎 Product, brand, shop or barcode") },
+                label = { Text(L("🔎 Product, brand, shop or barcode", "🔎 Produkt, Marke, Laden oder Barcode")) },
                 singleLine = true,
                 keyboardOptions = KeyboardOptions(imeAction = ImeAction.Search),
                 keyboardActions = KeyboardActions(onSearch = { run() }),
                 modifier = Modifier.weight(1f)
             )
             Spacer(Modifier.size(8.dp))
-            Button(onClick = { run() }) { Text("Go") }
+            Button(onClick = { run() }) { Text(L("Go", "Los")) }
         }
 
         // search the same text inside every halal source website
         if (query.isNotBlank() && state.data.resources.isNotEmpty()) {
-            Text("📚 Search in sources:", fontSize = 13.sp, modifier = Modifier.padding(top = 8.dp))
+            Text(L("📚 Search in sources:", "📚 In Quellen suchen:"), fontSize = 13.sp, modifier = Modifier.padding(top = 8.dp))
             LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 items(state.data.resources.filter { it.search.isNotBlank() }) { res ->
                     AssistChip(
@@ -99,7 +99,7 @@ fun SearchScreen(state: AppState) {
         msg?.let { Text(it, modifier = Modifier.padding(12.dp)) }
 
         LazyColumn(verticalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
-            if (listed.isNotEmpty()) item { Text("📗 Halal database", fontWeight = FontWeight.Bold) }
+            if (listed.isNotEmpty()) item { Text(L("📗 Halal database", "📗 Halal-Datenbank"), fontWeight = FontWeight.Bold) }
             items(listed) { l ->
                 Card(Modifier.fillMaxWidth().clickable { state.lookup(l.barcode) }) {
                     Column(Modifier.padding(12.dp)) {
@@ -112,7 +112,7 @@ fun SearchScreen(state: AppState) {
                     }
                 }
             }
-            if (found.isNotEmpty()) item { Text("🌐 Open Food Facts (Germany)", fontWeight = FontWeight.Bold) }
+            if (found.isNotEmpty()) item { Text(L("🌐 Open Food Facts (Germany)", "🌐 Open Food Facts (Deutschland)"), fontWeight = FontWeight.Bold) }
             items(found) { p ->
                 val v = remember(p, state.data.rules) {
                     Analyzer.analyze(p.code, p, state.data.find(p.code), state.data.rules).verdict
@@ -124,7 +124,7 @@ fun SearchScreen(state: AppState) {
                         Column {
                             Text(p.name.ifBlank { p.code }, fontWeight = FontWeight.SemiBold)
                             Text(
-                                listOf(p.brand, p.quantity).filter { it.isNotBlank() }.joinToString(" · ") + "  ·  ${v.title}",
+                                listOf(p.brand, p.quantity).filter { it.isNotBlank() }.joinToString(" · ") + "  ·  ${v.titleL}",
                                 fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }

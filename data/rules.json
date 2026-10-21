@@ -1,6 +1,6 @@
 {
   "version": "2026-10-21",
-  "_help": "Ingredient rules. match: text contained in the ingredient list (lowercase). '=word' = whole word only. except: phrases removed before matching. vegan_ok: skip rule if product is marked vegan/vegetarian on Open Food Facts. Edit on GitHub -> app picks it up automatically. cosmetic_level: level used for cosmetics (Open Beauty Facts).",
+  "_help": "Ingredient rules. match: text contained in the ingredient list (lowercase). '=word' = whole word only. except: phrases removed before matching. vegan_ok: skip rule if product is marked vegan/vegetarian on Open Food Facts. Edit on GitHub -> app picks it up automatically. cosmetic_level: level used for cosmetics (Open Beauty Facts). label_de / note_de: German texts.",
   "rules": [
     {
       "id": "pork",
@@ -24,7 +24,9 @@
         "porcine",
         "=sus scrofa"
       ],
-      "except": []
+      "except": [],
+      "label_de": "Schwein",
+      "note_de": "Schwein und alle Schweine-Bestandteile sind haram."
     },
     {
       "id": "ham-de",
@@ -43,7 +45,9 @@
         "rinderschinken",
         "kalbsschinken",
         "lachsschinken vom rind"
-      ]
+      ],
+      "label_de": "Schinken (meist Schwein)",
+      "note_de": "„Schinken“ ohne Tierangabe ist in Deutschland Schwein."
     },
     {
       "id": "lard-de",
@@ -60,7 +64,9 @@
         "kokosschmalz",
         "rinderschmalz",
         "entenschmalz"
-      ]
+      ],
+      "label_de": "Schmalz",
+      "note_de": "Reines „Schmalz“ ist Schweineschmalz."
     },
     {
       "id": "gelatine",
@@ -89,7 +95,9 @@
         "gelatine (rind",
         "gelatine vom rind",
         "gelatine aus rind"
-      ]
+      ],
+      "label_de": "Gelatine",
+      "note_de": "In Deutschland meist vom Schwein, außer Quelle (Fisch / Halal-Rind) ist angegeben."
     },
     {
       "id": "alcohol",
@@ -153,7 +161,9 @@
         "brewer's yeast",
         "beer yeast"
       ],
-      "cosmetic_level": "doubtful"
+      "cosmetic_level": "doubtful",
+      "label_de": "Alkohol",
+      "note_de": "Alkohol als Zutat wird von europäischen Halal-Zertifizierern nicht akzeptiert. In Kosmetik (äußerlich) akzeptieren viele Gelehrte synthetischen Alkohol — daher dort zweifelhaft."
     },
     {
       "id": "carmine",
@@ -169,7 +179,9 @@
         "karminsäure",
         "carminic"
       ],
-      "except": []
+      "except": [],
+      "label_de": "Karmin (E120)",
+      "note_de": "Roter Farbstoff aus Insekten; von den meisten Halal-Zertifizierern nicht akzeptiert."
     },
     {
       "id": "blood",
@@ -186,7 +198,9 @@
       "except": [
         "blutorange",
         "blood orange"
-      ]
+      ],
+      "label_de": "Blut",
+      "note_de": "Blut und Blutprodukte sind haram."
     },
     {
       "id": "beef-gelatine",
@@ -201,7 +215,9 @@
         "gelatine vom rind",
         "gelatine aus rind"
       ],
-      "except": []
+      "except": [],
+      "label_de": "Rindergelatine",
+      "note_de": "Nur halal, wenn von halal geschlachteten Rindern — auf Zertifikat achten."
     },
     {
       "id": "emulsifiers",
@@ -246,7 +262,9 @@
         "mono- und diglyceride von speisefettsäuren aus pflanzlichen fetten",
         "mono- and diglycerides of fatty acids (vegetable)"
       ],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "Emulgatoren (evtl. tierisch)",
+      "note_de": "E470–E495 / Mono- & Diglyceride können aus Schweinefett stammen, wenn nicht pflanzlich angegeben."
     },
     {
       "id": "glycerol",
@@ -267,7 +285,9 @@
         "glycerinester aus wurzelharz",
         "glycerinester von holzharzen"
       ],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "Glycerin (E422)",
+      "note_de": "Kann tierisch sein, wenn keine pflanzliche Quelle angegeben ist."
     },
     {
       "id": "cysteine",
@@ -281,7 +301,9 @@
         "cystein"
       ],
       "except": [],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "L-Cystein (E920)",
+      "note_de": "Wird oft aus Federn oder Haaren gewonnen."
     },
     {
       "id": "stearic",
@@ -297,7 +319,9 @@
         "magnesium stearate"
       ],
       "except": [],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "Stearinsäure / Stearate (E570, E572)",
+      "note_de": "Kann aus tierischem Fett stammen."
     },
     {
       "id": "bone",
@@ -310,7 +334,9 @@
         "bone phosphate",
         "knochen"
       ],
-      "except": []
+      "except": [],
+      "label_de": "Knochenphosphat (E542)",
+      "note_de": "Aus Tierknochen hergestellt."
     },
     {
       "id": "rennet",
@@ -334,7 +360,9 @@
         "pflanzliches lab",
         "lab (mikrobiell"
       ],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "Tierisches Lab",
+      "note_de": "Kälberlab nur halal von halal geschlachteten Tieren; mikrobielles Lab ist unbedenklich."
     },
     {
       "id": "animal-fat",
@@ -353,7 +381,9 @@
         "rinderfett"
       ],
       "except": [],
-      "vegan_ok": true
+      "vegan_ok": true,
+      "label_de": "Tierisches Fett",
+      "note_de": "Tierart / Schlachtung unbekannt."
     },
     {
       "id": "meat",
@@ -423,7 +453,9 @@
         "veggie",
         "rindergelatine"
       ],
-      "cosmetic_level": "doubtful"
+      "cosmetic_level": "doubtful",
+      "label_de": "Fleisch / Geflügel",
+      "note_de": "Fleisch muss aus Halal-Schlachtung (Zabiha) stammen. Auf Zertifikat achten."
     },
     {
       "id": "flavour-alcohol-carrier",
@@ -438,7 +470,9 @@
         "weinaroma"
       ],
       "except": [],
-      "cosmetic_level": "doubtful"
+      "cosmetic_level": "doubtful",
+      "label_de": "Aroma evtl. mit Alkohol",
+      "note_de": "Aromen können Ethanol als Trägerstoff enthalten; zertifizierte Produkte vermeiden das."
     },
     {
       "id": "shellfish-lab-insects",
@@ -455,7 +489,9 @@
         "schellack",
         "shellac"
       ],
-      "except": []
+      "except": [],
+      "label_de": "Insekten",
+      "note_de": "Insekten-Zutaten sind unter den Rechtsschulen umstritten."
     }
   ]
 }

@@ -98,7 +98,7 @@ fun ScanScreen(state: AppState) {
                         .border(BorderStroke(3.dp, Color.White.copy(alpha = 0.85f)), RoundedCornerShape(16.dp))
                 )
                 Text(
-                    "Point the camera at the barcode",
+                    L("Point the camera at the barcode", "Kamera auf den Barcode richten"),
                     color = Color.White,
                     modifier = Modifier.align(Alignment.TopCenter).padding(top = 16.dp)
                         .background(Color.Black.copy(alpha = 0.5f), RoundedCornerShape(8.dp))
@@ -109,15 +109,15 @@ fun ScanScreen(state: AppState) {
                     modifier = Modifier.align(Alignment.BottomEnd).padding(12.dp)
                 ) {
                     Surface(shape = RoundedCornerShape(50), color = Color.Black.copy(alpha = 0.5f)) {
-                        Text(if (torch) "🔦 On" else "🔦 Off", color = Color.White, modifier = Modifier.padding(horizontal = 14.dp, vertical = 8.dp))
+                        Text(if (torch) L("🔦 On", "🔦 An") else L("🔦 Off", "🔦 Aus"), color = Color.White, modifier = Modifier.padding(horizontal = 14.dp, vertical = 8.dp))
                     }
                 }
             } else {
                 Column(horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(24.dp)) {
                     Text("📷", fontSize = 56.sp)
-                    Text("Camera permission is needed to scan barcodes", color = Color.White, textAlign = TextAlign.Center)
+                    Text(L("Camera permission is needed to scan barcodes", "Kamerazugriff wird zum Scannen benötigt"), color = Color.White, textAlign = TextAlign.Center)
                     Spacer(Modifier.height(12.dp))
-                    Button(onClick = { launcher.launch(Manifest.permission.CAMERA) }) { Text("Allow camera") }
+                    Button(onClick = { launcher.launch(Manifest.permission.CAMERA) }) { Text(L("Allow camera", "Kamera erlauben")) }
                 }
             }
             if (state.loading) {
@@ -125,7 +125,7 @@ fun ScanScreen(state: AppState) {
                     Row(Modifier.padding(20.dp), verticalAlignment = Alignment.CenterVertically) {
                         CircularProgressIndicator(Modifier.size(28.dp))
                         Spacer(Modifier.size(12.dp))
-                        Text("Checking product…")
+                        Text(L("Checking product…", "Produkt wird geprüft…"))
                     }
                 }
             }
@@ -147,13 +147,13 @@ fun ScanScreen(state: AppState) {
             OutlinedTextField(
                 value = manual,
                 onValueChange = { manual = it.filter(Char::isDigit).take(14) },
-                label = { Text("⌨️ Or type barcode") },
+                label = { Text(L("⌨️ Or type barcode", "⌨️ Oder Barcode eingeben")) },
                 singleLine = true,
                 keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number, imeAction = ImeAction.Search),
                 keyboardActions = KeyboardActions(onSearch = { state.lookup(manual) }),
                 modifier = Modifier.weight(1f)
             )
-            Button(onClick = { state.lookup(manual) }, enabled = manual.length >= 6) { Text("Check") }
+            Button(onClick = { state.lookup(manual) }, enabled = manual.length >= 6) { Text(L("Check", "Prüfen")) }
         }
     }
 }

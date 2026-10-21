@@ -33,41 +33,28 @@ fun SourcesScreen(state: AppState) {
         verticalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         item {
-            Text("📚 Halal sources", fontWeight = FontWeight.Bold, fontSize = 18.sp, modifier = Modifier.padding(top = 12.dp))
-            Text("European certifiers & references. Use 🔎 Search tab to search inside them.", fontSize = 13.sp)
+            Text(L("📚 Halal sources", "📚 Halal-Quellen"), fontWeight = FontWeight.Bold, fontSize = 18.sp, modifier = Modifier.padding(top = 12.dp))
+            Text(L("European certifiers & references. Use 🔎 Search tab to search inside them.", "Europäische Zertifizierer & Referenzen. Im 🔎 Suche-Tab kannst du darin suchen."), fontSize = 13.sp)
         }
         items(d.resources) { r ->
             Card(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(12.dp)) {
                     Text("${r.country} ${r.name}", fontWeight = FontWeight.SemiBold)
                     if (r.description.isNotBlank()) Text(r.description, fontSize = 13.sp, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    if (r.url.isNotBlank()) TextButton(onClick = { ctx.openUrl(r.url) }) { Text("🌐 Open website") }
-                }
-            }
-        }
-        item {
-            Card(Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                    Text("⚙️ App & data", fontWeight = FontWeight.Bold)
-                    Text("📱 Version ${BuildConfig.VERSION_NAME}")
-                    Text("📗 Halal database: ${d.products.size} products" + (if (d.productsUpdated.isNotBlank()) " · ${d.productsUpdated}" else ""))
-                    Text("🏷️ Halal-labelled in Germany (auto): ${d.imported.size}" + (if (d.importedUpdated.isNotBlank()) " · ${d.importedUpdated}" else ""))
-                    Text("🧪 Ingredient rules: ${d.rules.size}" + (if (d.rulesVersion.isNotBlank()) " · ${d.rulesVersion}" else ""))
-                    d.lastSync?.let { Text("🔄 Synced from GitHub: $it", fontSize = 13.sp) }
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        OutlinedButton(onClick = { state.syncData() }) { Text("🔄 Sync data") }
-                        OutlinedButton(onClick = { state.checkUpdate(true) }) { Text("⬆️ Check update") }
-                    }
-                    state.updateMsg?.let { Text(it) }
-                    TextButton(onClick = { ctx.openUrl(Config.REPO_URL) }) { Text("🐙 GitHub repo") }
+                    if (r.url.isNotBlank()) TextButton(onClick = { ctx.openUrl(r.url) }) { Text(L("🌐 Open website", "🌐 Webseite öffnen")) }
                 }
             }
         }
         item {
             Text(
-                "⚖️ How verdicts work: 1) your verified Halal database on GitHub, 2) halal label recorded on Open Food Facts, " +
-                    "3) ingredient check (pork, alcohol, gelatine, carmine, animal emulsifiers, meat…). " +
-                    "“No haram ingredients found” is NOT a certificate.",
+                L(
+                    "⚖️ How verdicts work: 1) your verified Halal database on GitHub, 2) halal label (auto list / Open Food Facts), " +
+                        "3) ingredient check (pork, alcohol, gelatine, carmine, animal emulsifiers, meat…). " +
+                        "“No haram ingredients found” is NOT a certificate.",
+                    "⚖️ So entsteht das Ergebnis: 1) deine geprüfte Halal-Datenbank auf GitHub, 2) Halal-Siegel (Auto-Liste / Open Food Facts), " +
+                        "3) Zutatenprüfung (Schwein, Alkohol, Gelatine, Karmin, tierische Emulgatoren, Fleisch…). " +
+                        "„Keine Haram-Zutaten gefunden“ ist KEIN Zertifikat."
+                ),
                 fontSize = 12.sp,
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 modifier = Modifier.padding(bottom = 16.dp)
@@ -82,9 +69,9 @@ fun UpdateBanner(state: AppState) {
     Surface(color = Color(0xFFFFF3CD), modifier = Modifier.fillMaxWidth()) {
         Column(Modifier.padding(horizontal = 12.dp, vertical = 6.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Text("🎉 New version: ${r.name}", color = Color(0xFF5D4300), modifier = Modifier.weight(1f))
+                Text(L("🎉 New version: ", "🎉 Neue Version: ") + r.name, color = Color(0xFF5D4300), modifier = Modifier.weight(1f))
                 TextButton(onClick = { state.installUpdate() }, enabled = state.updateProgress == null) {
-                    Text("⬇️ Update")
+                    Text(L("⬇️ Update", "⬇️ Aktualisieren"))
                 }
             }
             state.updateProgress?.let { LinearProgressIndicator(progress = { it }, modifier = Modifier.fillMaxWidth()) }
