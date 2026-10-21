@@ -1,0 +1,6380 @@
+{
+"updated": "2026-10-21",
+"_help": "AUTO-GENERATED weekly from Open Food Facts / Open Beauty Facts (products sold in Germany with a halal label). Do not edit — put your own corrections in products.json (it wins).",
+"stats": {
+"total": 635,
+"by_source": {
+"Open Food Facts": 635,
+"Open Beauty Facts": 0
+},
+"by_store": {
+"Carrefour": 28,
+"Edeka": 19,
+"Delhaize": 17,
+"Kaufland": 16,
+"REWE": 13,
+"Amazon": 13,
+"Colruyt": 12,
+"Auchan": 11,
+"Coop": 10,
+"Match": 10,
+"Rewe": 9,
+"Magasins U": 9,
+"Woolworths": 9,
+"carrefour.fr": 8,
+"Jumbo": 7
+}
+},
+"products": [
+{
+"barcode": "8693273018012",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8693273018012",
+"stores": ""
+},
+{
+"barcode": "0016212977573",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0016212977573",
+"stores": ""
+},
+{
+"barcode": "7258894000009",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7258894000009",
+"stores": ""
+},
+{
+"barcode": "4260024180201",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260024180201",
+"stores": ""
+},
+{
+"barcode": "4040357158074",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040357158074",
+"stores": ""
+},
+{
+"barcode": "5060045051011",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5060045051011",
+"stores": ""
+},
+{
+"barcode": "8711659067727",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711659067727",
+"stores": ""
+},
+{
+"barcode": "8690819259984",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690819259984",
+"stores": ""
+},
+{
+"barcode": "7891515616120",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7891515616120",
+"stores": ""
+},
+{
+"barcode": "4260235834030",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260235834030",
+"stores": ""
+},
+{
+"barcode": "03674161",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/03674161",
+"stores": ""
+},
+{
+"barcode": "8759470017156",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8759470017156",
+"stores": ""
+},
+{
+"barcode": "7350057070017",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7350057070017",
+"stores": ""
+},
+{
+"barcode": "8713305817519",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8713305817519",
+"stores": ""
+},
+{
+"barcode": "8683985395211",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8683985395211",
+"stores": ""
+},
+{
+"barcode": "8690146653813",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690146653813",
+"stores": ""
+},
+{
+"barcode": "8600104007459",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8600104007459",
+"stores": ""
+},
+{
+"barcode": "0907089300123",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0907089300123",
+"stores": ""
+},
+{
+"barcode": "0898096051132",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0898096051132",
+"stores": ""
+},
+{
+"barcode": "4260701191667",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260701191667",
+"stores": ""
+},
+{
+"barcode": "8690547101210",
+"name": "",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690547101210",
+"stores": ""
+},
+{
+"barcode": "0609465363479",
+"name": "12 Sigir Burger",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0609465363479",
+"stores": ""
+},
+{
+"barcode": "4026279971182",
+"name": "3 turkish pizza",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279971182",
+"stores": ""
+},
+{
+"barcode": "4027394007039",
+"name": "Acili Dilimli Tavuk Salami Fulya",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394007039",
+"stores": ""
+},
+{
+"barcode": "4018342157036",
+"name": "Aladin Pizza Salami",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4018342157036",
+"stores": ""
+},
+{
+"barcode": "8717306551496",
+"name": "Altinküpe altin Sucuk Knoblauchwurst",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8717306551496",
+"stores": ""
+},
+{
+"barcode": "6210944313133",
+"name": "Arvi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6210944313133",
+"stores": ""
+},
+{
+"barcode": "5285002198510",
+"name": "Aryba",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5285002198510",
+"stores": ""
+},
+{
+"barcode": "8681212008897",
+"name": "Baladna PULSES HONENERÜCHTE",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8681212008897",
+"stores": ""
+},
+{
+"barcode": "6261462447336",
+"name": "Bam Mazafati dates",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6261462447336",
+"stores": ""
+},
+{
+"barcode": "8690146140634",
+"name": "Bebeto Wacky Sticks Cool Apple",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690146140634",
+"stores": ""
+},
+{
+"barcode": "4251564101306",
+"name": "Bio Dattelsirup",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251564101306",
+"stores": ""
+},
+{
+"barcode": "3359810149551",
+"name": "Bouillon de boeuf",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3359810149551",
+"stores": ""
+},
+{
+"barcode": "4019467488302",
+"name": "Charly s",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467488302",
+"stores": ""
+},
+{
+"barcode": "8716221000034",
+"name": "Chickenburger",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8716221000034",
+"stores": ""
+},
+{
+"barcode": "4260256411135",
+"name": "cola turka",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260256411135",
+"stores": ""
+},
+{
+"barcode": "4047187002164",
+"name": "Dana Kebap",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4047187002164",
+"stores": ""
+},
+{
+"barcode": "4017979062003",
+"name": "Derya",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979062003",
+"stores": ""
+},
+{
+"barcode": "4260583640062",
+"name": "Diba 1121 Basmati Reis",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260583640062",
+"stores": ""
+},
+{
+"barcode": "4047187001402",
+"name": "Dilim Sucuk",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4047187001402",
+"stores": ""
+},
+{
+"barcode": "4017979016006",
+"name": "Egetürk Dalyan Salami",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979016006",
+"stores": ""
+},
+{
+"barcode": "4011259041290",
+"name": "Etli Hindi Dilim",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4011259041290",
+"stores": ""
+},
+{
+"barcode": "8711135571410",
+"name": "Fleischerzeugis aus Huhn Rindgescmak",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711135571410",
+"stores": ""
+},
+{
+"barcode": "5011061179043",
+"name": "Football Bubbles",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061179043",
+"stores": ""
+},
+{
+"barcode": "4026279977207",
+"name": "Frikandeln",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279977207",
+"stores": ""
+},
+{
+"barcode": "4027394007534",
+"name": "Fulya Dilimli Tavuk Göğsü",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394007534",
+"stores": ""
+},
+{
+"barcode": "8681015034734",
+"name": "Furi's Wassermelone Kaugummi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8681015034734",
+"stores": ""
+},
+{
+"barcode": "4260467593750",
+"name": "Geflügelbratwurst",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260467593750",
+"stores": ""
+},
+{
+"barcode": "4260235833156",
+"name": "Geflügelwiener",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260235833156",
+"stores": ""
+},
+{
+"barcode": "4045198831926",
+"name": "Glasnudeln",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4045198831926",
+"stores": ""
+},
+{
+"barcode": "4250519603544",
+"name": "Glucosamine Giga Caps",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4250519603544",
+"stores": ""
+},
+{
+"barcode": "8690646383999",
+"name": "Gofret",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690646383999",
+"stores": ""
+},
+{
+"barcode": "8001408875216",
+"name": "Grana kinara",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8001408875216",
+"stores": ""
+},
+{
+"barcode": "8684097390552",
+"name": "guma",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8684097390552",
+"stores": ""
+},
+{
+"barcode": "8684097390583",
+"name": "guma",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8684097390583",
+"stores": ""
+},
+{
+"barcode": "4050164008516",
+"name": "Hackfleisch Drehspieß Döner",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4050164008516",
+"stores": ""
+},
+{
+"barcode": "2845666002665",
+"name": "Halal food",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/2845666002665",
+"stores": ""
+},
+{
+"barcode": "4260701190059",
+"name": "Halal sweets Strawberry Kiss",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260701190059",
+"stores": ""
+},
+{
+"barcode": "4260495870113",
+"name": "Hana Chicken Luncheon Meat",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260495870113",
+"stores": ""
+},
+{
+"barcode": "8807354215683",
+"name": "Honey Butter almond",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8807354215683",
+"stores": ""
+},
+{
+"barcode": "4002231083513",
+"name": "Hähnchenbrustfilet",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002231083513",
+"stores": ""
+},
+{
+"barcode": "4050164006864",
+"name": "Hähnchenschnitzel",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4050164006864",
+"stores": ""
+},
+{
+"barcode": "4027394037265",
+"name": "Hühnerwurst mit Rind",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394037265",
+"stores": ""
+},
+{
+"barcode": "5902082415206",
+"name": "Inegöl köfte",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5902082415206",
+"stores": ""
+},
+{
+"barcode": "8717703638813",
+"name": "Instant Noodle",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8717703638813",
+"stores": ""
+},
+{
+"barcode": "8711659038758",
+"name": "Izgara Keyfi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711659038758",
+"stores": ""
+},
+{
+"barcode": "5411431119790",
+"name": "Jambon de dinde cuit au four",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5411431119790",
+"stores": ""
+},
+{
+"barcode": "8888090149210",
+"name": "Japanese udon",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8888090149210",
+"stores": ""
+},
+{
+"barcode": "4260127932028",
+"name": "Kayseri Pastirma",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260127932028",
+"stores": ""
+},
+{
+"barcode": "4026279970000",
+"name": "Kebab",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279970000",
+"stores": ""
+},
+{
+"barcode": "8594181580403",
+"name": "Kibbe bulghur small",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8594181580403",
+"stores": ""
+},
+{
+"barcode": "4260643940262",
+"name": "Kirsche Ayran",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260643940262",
+"stores": ""
+},
+{
+"barcode": "4260065879836",
+"name": "Krem Peynir",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260065879836",
+"stores": ""
+},
+{
+"barcode": "4008960202362",
+"name": "Krem Peyniri",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008960202362",
+"stores": ""
+},
+{
+"barcode": "4043362427234",
+"name": "Köftespieß Xatar",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4043362427234",
+"stores": ""
+},
+{
+"barcode": "4251235821373",
+"name": "Lahmacun",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251235821373",
+"stores": ""
+},
+{
+"barcode": "4251313800139",
+"name": "Lakritz",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251313800139",
+"stores": ""
+},
+{
+"barcode": "8693730020886",
+"name": "Lavas-Köy ekmegi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8693730020886",
+"stores": ""
+},
+{
+"barcode": "4260061221202",
+"name": "Manga Sigir Sosis",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260061221202",
+"stores": ""
+},
+{
+"barcode": "4260701190158",
+"name": "Miralinas Halal Sweets",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260701190158",
+"stores": ""
+},
+{
+"barcode": "4260436520206",
+"name": "Mr. falafel",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260436520206",
+"stores": ""
+},
+{
+"barcode": "4045198988149",
+"name": "Mushroom bun",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4045198988149",
+"stores": ""
+},
+{
+"barcode": "4251313800023",
+"name": "myChoco - Karamell Meeralz",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251313800023",
+"stores": ""
+},
+{
+"barcode": "8693323005108",
+"name": "Nazar",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8693323005108",
+"stores": ""
+},
+{
+"barcode": "0841165156818",
+"name": "Noodlicious Instant Noodles",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165156818",
+"stores": ""
+},
+{
+"barcode": "2237616004797",
+"name": "Panierter Geflügelbratling",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/2237616004797",
+"stores": ""
+},
+{
+"barcode": "3900267010262",
+"name": "pashtet",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3900267010262",
+"stores": ""
+},
+{
+"barcode": "4050164054254",
+"name": "Pastirma",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4050164054254",
+"stores": ""
+},
+{
+"barcode": "4012012005504",
+"name": "Pastirma",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4012012005504",
+"stores": ""
+},
+{
+"barcode": "8693374261072",
+"name": "Pilaff with Basmati Rice",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8693374261072",
+"stores": ""
+},
+{
+"barcode": "0841165149025",
+"name": "Pran Crunchy Wafer",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165149025",
+"stores": ""
+},
+{
+"barcode": "4260495870342",
+"name": "Putenseparatorenfleisch",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260495870342",
+"stores": ""
+},
+{
+"barcode": "0089686386219",
+"name": "Racik bumbu tumis",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0089686386219",
+"stores": ""
+},
+{
+"barcode": "4251180203972",
+"name": "Rinder Knoblauchwurst nach türkischer Art",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251180203972",
+"stores": ""
+},
+{
+"barcode": "4022705028680",
+"name": "Rindswurst",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4022705028680",
+"stores": ""
+},
+{
+"barcode": "4260193515293",
+"name": "Saucisse etli hindi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260193515293",
+"stores": ""
+},
+{
+"barcode": "4251837801056",
+"name": "Schwarzkümmelöl Kapseln",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251837801056",
+"stores": ""
+},
+{
+"barcode": "4047187000696",
+"name": "selam hindi dilimi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4047187000696",
+"stores": ""
+},
+{
+"barcode": "8719325004434",
+"name": "Seren Sucuk",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8719325004434",
+"stores": ""
+},
+{
+"barcode": "5904277721482",
+"name": "Sucuk",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5904277721482",
+"stores": ""
+},
+{
+"barcode": "4061458233538",
+"name": "Sucuk",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4061458233538",
+"stores": ""
+},
+{
+"barcode": "3858890203691",
+"name": "Sudzuk-Gavrilovic",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3858890203691",
+"stores": ""
+},
+{
+"barcode": "5425004522030",
+"name": "Tavuk Schnitzel",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5425004522030",
+"stores": ""
+},
+{
+"barcode": "4050164005973",
+"name": "Tavuk tuna paprika",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4050164005973",
+"stores": ""
+},
+{
+"barcode": "5310133003782",
+"name": "topsi",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5310133003782",
+"stores": ""
+},
+{
+"barcode": "8718226588852",
+"name": "Tortillas Dürüm-Wraps",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8718226588852",
+"stores": ""
+},
+{
+"barcode": "4040357166710",
+"name": "truthahn snack salami",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040357166710",
+"stores": ""
+},
+{
+"barcode": "4045198904019",
+"name": "Tsingtaos Spring Rolls",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4045198904019",
+"stores": ""
+},
+{
+"barcode": "4260065877276",
+"name": "uclu salam",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260065877276",
+"stores": ""
+},
+{
+"barcode": "8718481541876",
+"name": "Uggo bombastic",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8718481541876",
+"stores": ""
+},
+{
+"barcode": "4250050110471",
+"name": "Virsle",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4250050110471",
+"stores": ""
+},
+{
+"barcode": "4260195084353",
+"name": "Wassermelone",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260195084353",
+"stores": ""
+},
+{
+"barcode": "4250018926144",
+"name": "Wassermelone",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4250018926144",
+"stores": ""
+},
+{
+"barcode": "02124674",
+"name": "yum yum",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/02124674",
+"stores": ""
+},
+{
+"barcode": "3870007014303",
+"name": "zlatna đžezva",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3870007014303",
+"stores": ""
+},
+{
+"barcode": "7350106060068",
+"name": "دجاج",
+"brand": "",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7350106060068",
+"stores": ""
+},
+{
+"barcode": "4019467486896",
+"name": "Hot dog halal",
+"brand": "Adalya",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467486896",
+"stores": ""
+},
+{
+"barcode": "5412514936129",
+"name": "Dürüm",
+"brand": "Adana",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5412514936129",
+"stores": ""
+},
+{
+"barcode": "44081010921000800",
+"name": "Escalopes de poulet panées épicées halal",
+"brand": "Agricola",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/44081010921000800",
+"stores": ""
+},
+{
+"barcode": "4251180200230",
+"name": "Hindi Salam Dilimli Geflügel Salami mit Pflanzenfett",
+"brand": "Ahinur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251180200230",
+"stores": ""
+},
+{
+"barcode": "08446879",
+"name": "Pili Pili sauce",
+"brand": "Ahinur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/08446879",
+"stores": ""
+},
+{
+"barcode": "8718185865933",
+"name": "Libanese brood",
+"brand": "Al baraka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8718185865933",
+"stores": ""
+},
+{
+"barcode": "4018342155766",
+"name": "Mini sosis",
+"brand": "Aladin",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4018342155766",
+"stores": ""
+},
+{
+"barcode": "20412074",
+"name": "Dried mango",
+"brand": "Alesto",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/20412074",
+"stores": "LIDL"
+},
+{
+"barcode": "8805957017345",
+"name": "Udon Hot Spicy",
+"brand": "All Groo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8805957017345",
+"stores": ""
+},
+{
+"barcode": "8805957016607",
+"name": "Vegetable Gun Mandu",
+"brand": "all groo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8805957016607",
+"stores": ""
+},
+{
+"barcode": "7312930004755",
+"name": "Milka Schokoladen & Haselnuss torte",
+"brand": "Almondy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7312930004755",
+"stores": ""
+},
+{
+"barcode": "8008714001216",
+"name": "Afredo's Kartoffelchips mit Trüffelgeschmack",
+"brand": "Amica Chips",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8008714001216",
+"stores": "REWE"
+},
+{
+"barcode": "5010928050013",
+"name": "Hoi Sin Sauce",
+"brand": "Amoy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5010928050013",
+"stores": ""
+},
+{
+"barcode": "0078024311204",
+"name": "Sesam öl",
+"brand": "Amoy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0078024311204",
+"stores": ""
+},
+{
+"barcode": "4892773231202",
+"name": "Weißer Reisessig",
+"brand": "Amoy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4892773231202",
+"stores": "GoAsia, Asia Läden"
+},
+{
+"barcode": "4841857000159",
+"name": "SLD Bonbons mit Birnengeschmack",
+"brand": "APLGO",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4841857000159",
+"stores": ""
+},
+{
+"barcode": "4841857000166",
+"name": "STP Bonbons mit Kirschgeschmack",
+"brand": "APLGO",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4841857000166",
+"stores": ""
+},
+{
+"barcode": "0748485800110",
+"name": "Beef Loaf",
+"brand": "Argentina",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0748485800110",
+"stores": ""
+},
+{
+"barcode": "3838471044783",
+"name": "Argeta",
+"brand": "Argeta",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3838471044783",
+"stores": ""
+},
+{
+"barcode": "3838471045940",
+"name": "Halal Huhn pikant",
+"brand": "Argeta",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3838471045940",
+"stores": ""
+},
+{
+"barcode": "3838471030137",
+"name": "Harissa orient",
+"brand": "Argeta",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3838471030137",
+"stores": ""
+},
+{
+"barcode": "3838975566576",
+"name": "Huhn Halal",
+"brand": "Argeta",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3838975566576",
+"stores": "Rewe"
+},
+{
+"barcode": "8005709204959",
+"name": "Il fusillo",
+"brand": "Armando",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8005709204959",
+"stores": ""
+},
+{
+"barcode": "8005709204041",
+"name": "Pasta Spaghetto",
+"brand": "Armando",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8005709204041",
+"stores": "Delhaize"
+},
+{
+"barcode": "0737069792637",
+"name": "Bio Kokosöl Nativ Extra",
+"brand": "Arnetica",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0737069792637",
+"stores": "www.arnetica.com"
+},
+{
+"barcode": "4260024450281",
+"name": "IBONS Kaubonbons mit frischem Ingwer",
+"brand": "Arno Knof GmbH",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260024450281",
+"stores": ""
+},
+{
+"barcode": "8851613106106",
+"name": "Kokosmilch",
+"brand": "Aroy-D",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8851613106106",
+"stores": "REWE"
+},
+{
+"barcode": "8851613101378",
+"name": "Kokosmilch 250g",
+"brand": "Aroy-D",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8851613101378",
+"stores": "Kochhaus, supermarché asiatique indépendant, Amazon"
+},
+{
+"barcode": "8851613003344",
+"name": "organic coconut milk",
+"brand": "Aroy-D",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8851613003344",
+"stores": ""
+},
+{
+"barcode": "0016229909819",
+"name": "Coconut cream",
+"brand": "Aroy-D Thai Agri Food Public Company Limited",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0016229909819",
+"stores": "supermarché asiatique indépendant, tang frères"
+},
+{
+"barcode": "5285002190590",
+"name": "Aruba Jelly Strawberry",
+"brand": "Aruba",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5285002190590",
+"stores": "التركية"
+},
+{
+"barcode": "4017979056002",
+"name": "Jambon poulet",
+"brand": "Arzum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979056002",
+"stores": "Jumbo"
+},
+{
+"barcode": "8901552022057",
+"name": "Achari Aloo",
+"brand": "Ashoka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8901552022057",
+"stores": ""
+},
+{
+"barcode": "8901552011600",
+"name": "Bombay Biryani",
+"brand": "Ashoka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8901552011600",
+"stores": ""
+},
+{
+"barcode": "8901552021371",
+"name": "Palak Paneer (Tofu)",
+"brand": "Ashoka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8901552021371",
+"stores": "Nisa"
+},
+{
+"barcode": "8901552005074",
+"name": "Punjabi Choley",
+"brand": "Ashoka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8901552005074",
+"stores": "Orient Store, Nisa"
+},
+{
+"barcode": "8886390201027",
+"name": "Fix für Rendang Curry",
+"brand": "Asian Home Gourmet",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8886390201027",
+"stores": "REWE"
+},
+{
+"barcode": "8886390203120",
+"name": "Sauce for Lemon Chicken",
+"brand": "Asian Home Gourmet",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8886390203120",
+"stores": ""
+},
+{
+"barcode": "8886390204011",
+"name": "Spice mix for Singapore Coconut Rice",
+"brand": "Asian Home Gourmet",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8886390204011",
+"stores": "REWE"
+},
+{
+"barcode": "8886390204035",
+"name": "Würzpaste für Singapur Laksa",
+"brand": "Asian Home Gourmet",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8886390204035",
+"stores": ""
+},
+{
+"barcode": "8053904630691",
+"name": "AsiaTica Shirataki Konjac",
+"brand": "AsiaTica",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630691",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "8053904630707",
+"name": "Konnyaku mai",
+"brand": "AsiaTica",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630707",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "8053904630714",
+"name": "Shirataki konjac Linguini",
+"brand": "AsiaTica",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630714",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "4260375090129",
+"name": "Hindi Dilim Salami",
+"brand": "ay yildiz",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260375090129",
+"stores": ""
+},
+{
+"barcode": "9556041608251",
+"name": "Lait de Coco 200 ml",
+"brand": "Ayam",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9556041608251",
+"stores": "Monoprix, G20, carrefour.fr, Intermarché"
+},
+{
+"barcode": "4040328033423",
+"name": "Saucisson de volaille halal",
+"brand": "Baktat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328033423",
+"stores": "Epicerie, carrefour.fr"
+},
+{
+"barcode": "4040328002382",
+"name": "Tavuk Dilim Salam Etli",
+"brand": "Baktat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328002382",
+"stores": "Gortat"
+},
+{
+"barcode": "4040328040575",
+"name": "Pizza Turkey Salami",
+"brand": "Baktatsuntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halalcontrole extra kalite",
+"url": "https://world.openfoodfacts.org/product/4040328040575",
+"stores": "Carrefour  carrefour.fr"
+},
+{
+"barcode": "8681506266736",
+"name": "Fava bohnen klassisch",
+"brand": "Baladna",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8681506266736",
+"stores": ""
+},
+{
+"barcode": "8681506260628",
+"name": "Weinblätter",
+"brand": "Baladna",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8681506260628",
+"stores": ""
+},
+{
+"barcode": "8995899562093",
+"name": "Black Sesame Noodles",
+"brand": "Bali Kitchen",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8995899562093",
+"stores": ""
+},
+{
+"barcode": "8995899481714",
+"name": "Gemüse Nudeln",
+"brand": "Bali Kitchen",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8995899481714",
+"stores": ""
+},
+{
+"barcode": "8995899480618",
+"name": "Mie Goreng Nudeln",
+"brand": "Bali kitchen",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8995899480618",
+"stores": ""
+},
+{
+"barcode": "8995899430118",
+"name": "Nasi Goreng",
+"brand": "Bali Kitchen",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8995899430118",
+"stores": ""
+},
+{
+"barcode": "8995899450826",
+"name": "Sambal Oelek Chili-Paste",
+"brand": "Bali Kitchen",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8995899450826",
+"stores": ""
+},
+{
+"barcode": "8600043000023",
+"name": "Plazma",
+"brand": "Bambi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8600043000023",
+"stores": "Maxi, Idea"
+},
+{
+"barcode": "8600043022445",
+"name": "Plazma slana",
+"brand": "Bambi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8600043022445",
+"stores": ""
+},
+{
+"barcode": "8992735210026",
+"name": "Bamboe Bumbu Kare",
+"brand": "bamboe",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8992735210026",
+"stores": "Go Asia Supermarkt"
+},
+{
+"barcode": "6260336000974",
+"name": "choco biscuit",
+"brand": "baraka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6260336000974",
+"stores": ""
+},
+{
+"barcode": "8076800195057",
+"name": "Spaghetti",
+"brand": "BARILLA NORGE AS",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food council of europe",
+"url": "https://world.openfoodfacts.org/product/8076800195057",
+"stores": "Hyper U, Casino, Я Любимый, Intermarché, Magasins U, Woolworths"
+},
+{
+"barcode": "8690146650416",
+"name": "Peach Rings",
+"brand": "Bebeto",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690146650416",
+"stores": ""
+},
+{
+"barcode": "8690146160175",
+"name": "Wacky Sticks Fizzy Crazy Raspberry",
+"brand": "Bebeto",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690146160175",
+"stores": ""
+},
+{
+"barcode": "3073781176940",
+"name": "Kiri",
+"brand": "bel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3073781176940",
+"stores": ""
+},
+{
+"barcode": "8711327386303",
+"name": "Cone Together",
+"brand": "Ben & Jerry's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711327386303",
+"stores": "Carrefour market"
+},
+{
+"barcode": "0076840600021",
+"name": "Cookie Dough",
+"brand": "Ben & Jerry's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0076840600021",
+"stores": "Hyper U, Delhaize"
+},
+{
+"barcode": "8711327613812",
+"name": "Sunny Honey Home",
+"brand": "Ben & Jerry's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711327613812",
+"stores": "REWE"
+},
+{
+"barcode": "0850004207093",
+"name": "Beyond beef Plant-based Ground",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0850004207093",
+"stores": ""
+},
+{
+"barcode": "1230000068017",
+"name": "Beyond Burger",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000068017",
+"stores": "Kaufland"
+},
+{
+"barcode": "1230000068000",
+"name": "Beyond Burger",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000068000",
+"stores": "Monoprix, Migros"
+},
+{
+"barcode": "1230000068024",
+"name": "Beyond Hack",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000068024",
+"stores": "Kaufland"
+},
+{
+"barcode": "1230000068437",
+"name": "Beyond Meatballs",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000068437",
+"stores": ""
+},
+{
+"barcode": "1230000116701",
+"name": "Beyond Stack Burger",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000116701",
+"stores": ""
+},
+{
+"barcode": "1230000147743",
+"name": "Beyond Tenders",
+"brand": "Beyond Meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1230000147743",
+"stores": "Rewe"
+},
+{
+"barcode": "1240000005226",
+"name": "Saucisse vegetale",
+"brand": "beyond meat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1240000005226",
+"stores": "casino, Kaufland"
+},
+{
+"barcode": "8011033008064",
+"name": "Couscous",
+"brand": "Bia",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8011033008064",
+"stores": "Edeka"
+},
+{
+"barcode": "8011033010104",
+"name": "Couscous medium",
+"brand": "Bia",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8011033010104",
+"stores": ""
+},
+{
+"barcode": "8935297103085",
+"name": "Bulgogi Marinade",
+"brand": "Bibigo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8935297103085",
+"stores": "go asia"
+},
+{
+"barcode": "8801007164366",
+"name": "Kimchi",
+"brand": "Bibigo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801007164366",
+"stores": "go asia"
+},
+{
+"barcode": "8801007814773",
+"name": "Sesamöl geröstet",
+"brand": "BibigoCheiljedang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801007814773",
+"stores": ""
+},
+{
+"barcode": "8934863303157",
+"name": "Vermicelle Tapioca Noodle",
+"brand": "Bich-Chi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8934863303157",
+"stores": ""
+},
+{
+"barcode": "8690504644866",
+"name": "Rindersuppenwürfel",
+"brand": "Bizim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690504644866",
+"stores": ""
+},
+{
+"barcode": "8854404000225",
+"name": "Thai Gelbe Currypaste",
+"brand": "BLUE ELEPHANT",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8854404000225",
+"stores": ""
+},
+{
+"barcode": "4250350532324",
+"name": "Protein Tortilla Wrap",
+"brand": "Body Attack",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4250350532324",
+"stores": ""
+},
+{
+"barcode": "8684568300967",
+"name": "Dubai Chocolate",
+"brand": "Bolçi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8684568300967",
+"stores": "REWE"
+},
+{
+"barcode": "4400191061518",
+"name": "Ketchup",
+"brand": "Born",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4400191061518",
+"stores": ""
+},
+{
+"barcode": "4260131412745",
+"name": "Dattel paste",
+"brand": "Boustan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260131412745",
+"stores": ""
+},
+{
+"barcode": "8801073144484",
+"name": "Buldak Carbonara Flavour Hot Chicken Flavour Ramen",
+"brand": "Buldak",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073144484",
+"stores": "Malina, Mango Supermarked"
+},
+{
+"barcode": "8801073113381",
+"name": "Hot Chicken Flavor Ramen Stew Type",
+"brand": "Buldak",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: korea muslim federation halal committee",
+"url": "https://world.openfoodfacts.org/product/8801073113381",
+"stores": ""
+},
+{
+"barcode": "8801073116467",
+"name": "Hot Chicken Flavour Ramen Carbonara",
+"brand": "Buldak",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073116467",
+"stores": "Malina"
+},
+{
+"barcode": "4036577913197",
+"name": "Bulgarian white cheese",
+"brand": "Bulgara",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4036577913197",
+"stores": ""
+},
+{
+"barcode": "8858679646065",
+"name": "MochiIce CoolMix",
+"brand": "Buono",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858679646065",
+"stores": ""
+},
+{
+"barcode": "0032894011107",
+"name": "Homos Tahina Dip",
+"brand": "California Garden",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0032894011107",
+"stores": ""
+},
+{
+"barcode": "4260195083714",
+"name": "Fruchtgummi Wassermelone Partymix",
+"brand": "Capico",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260195083714",
+"stores": ""
+},
+{
+"barcode": "7610315004025",
+"name": "Dark Edelbitter 70%",
+"brand": "Carma",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7610315004025",
+"stores": ""
+},
+{
+"barcode": "8690105000429",
+"name": "Caykur Gray Tea",
+"brand": "Caykur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690105000429",
+"stores": ""
+},
+{
+"barcode": "0748485100319",
+"name": "Tuna flakes in oil",
+"brand": "Century Tuna",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0748485100319",
+"stores": ""
+},
+{
+"barcode": "5901549802269",
+"name": "Tortilla",
+"brand": "Ciloglu",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5901549802269",
+"stores": ""
+},
+{
+"barcode": "4337185531651",
+"name": "Salat fix",
+"brand": "Classic",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4337185531651",
+"stores": ""
+},
+{
+"barcode": "8717953127471",
+"name": "RawRice",
+"brand": "Clean Foods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8717953127471",
+"stores": ""
+},
+{
+"barcode": "9556437002403",
+"name": "Puddings",
+"brand": "Cocon",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9556437002403",
+"stores": "asian food lovers, Tesco"
+},
+{
+"barcode": "4006952008114",
+"name": "Franken Taler",
+"brand": "Coppenrath",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4006952008114",
+"stores": "Netto Marken-Discount"
+},
+{
+"barcode": "4006952007940",
+"name": "Glutenfrei Mini Gewürz Spekulatius",
+"brand": "Coppenrath",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4006952007940",
+"stores": ""
+},
+{
+"barcode": "4006952007049",
+"name": "Original Gewürz Spekulatius",
+"brand": "Coppenrath",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal certification service",
+"url": "https://world.openfoodfacts.org/product/4006952007049",
+"stores": "EDEKA"
+},
+{
+"barcode": "4099200433554",
+"name": "Macinato di manzo",
+"brand": "Country Best",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4099200433554",
+"stores": ""
+},
+{
+"barcode": "2000000151698",
+"name": "Shami Chicken Kebabs",
+"brand": "Crown Frozen Foods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/2000000151698",
+"stores": ""
+},
+{
+"barcode": "7312930000382",
+"name": "Schokoladen-Torte mit knusprigem Karamell",
+"brand": "Daim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7312930000382",
+"stores": "Magasins U, Kaufland"
+},
+{
+"barcode": "4011554763057",
+"name": "Putenbratwurst",
+"brand": "Damhus",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4011554763057",
+"stores": "Marktkauf"
+},
+{
+"barcode": "8850206070084",
+"name": "Sweet Soy Sauce",
+"brand": "Dek Som Boon",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850206070084",
+"stores": "Tamda"
+},
+{
+"barcode": "4260193515132",
+"name": "",
+"brand": "Destan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260193515132",
+"stores": ""
+},
+{
+"barcode": "4251871704337",
+"name": "Biberli",
+"brand": "Destan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251871704337",
+"stores": ""
+},
+{
+"barcode": "4251871702784",
+"name": "Kasar Peyniri",
+"brand": "Destan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251871702784",
+"stores": ""
+},
+{
+"barcode": "4260467591190",
+"name": "Kichererbsen",
+"brand": "Destan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260467591190",
+"stores": ""
+},
+{
+"barcode": "8003007826224",
+"name": "",
+"brand": "Di Bari",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8003007826224",
+"stores": ""
+},
+{
+"barcode": "8003007813569",
+"name": "",
+"brand": "Di Bari",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8003007813569",
+"stores": ""
+},
+{
+"barcode": "8003007826262",
+"name": "",
+"brand": "Di Bari",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8003007826262",
+"stores": ""
+},
+{
+"barcode": "8003007826279",
+"name": "Spagetti",
+"brand": "Di Bari",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8003007826279",
+"stores": ""
+},
+{
+"barcode": "4001726003944",
+"name": "Zucker",
+"brand": "Diamant",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4001726003944",
+"stores": ""
+},
+{
+"barcode": "8600498173419",
+"name": "Tartar sos",
+"brand": "Dijamanz",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8600498173419",
+"stores": ""
+},
+{
+"barcode": "4036577906052",
+"name": "Kichererbsen gekocht",
+"brand": "Dilek",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4036577906052",
+"stores": ""
+},
+{
+"barcode": "4036577906137",
+"name": "Wachtelbohnen",
+"brand": "Dilek",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4036577906137",
+"stores": ""
+},
+{
+"barcode": "4262373861503",
+"name": "Mais-Chips Chili-Limette-Style",
+"brand": "DIPPLE",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4262373861503",
+"stores": ""
+},
+{
+"barcode": "8681506011251",
+"name": "Patos",
+"brand": "Dogus",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8681506011251",
+"stores": "Mango Supermarked"
+},
+{
+"barcode": "3850104263644",
+"name": "Torten Creme Schoko",
+"brand": "dolcela",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850104263644",
+"stores": ""
+},
+{
+"barcode": "9002859050244",
+"name": "Tortillas de farine de blé",
+"brand": "Don Fernando",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9002859050244",
+"stores": ""
+},
+{
+"barcode": "5310146002642",
+"name": "Mama's hausgemachter Ajvar",
+"brand": "Dovgan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5310146002642",
+"stores": "Woolworths, tegut..."
+},
+{
+"barcode": "4270003471572",
+"name": "Dr. Vit+ ® Vitamin C + Zinc",
+"brand": "Dr. Vit+ ®",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4270003471572",
+"stores": "Marktinn Online shop"
+},
+{
+"barcode": "8697407031915",
+"name": "Turkish Delight - Türk Lokumu",
+"brand": "Efe Sekerleme",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8697407031915",
+"stores": ""
+},
+{
+"barcode": "4017979052004",
+"name": "rindswürstchen",
+"brand": "Efepasa Burcu",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979052004",
+"stores": "Intermarché"
+},
+{
+"barcode": "4017979028009",
+"name": "Suçuk en tranche",
+"brand": "Efepasa Guven",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979028009",
+"stores": ""
+},
+{
+"barcode": "4017979021000",
+"name": "Soudjouk Egeturk Sirma Parmak 1KG X 9 Arev",
+"brand": "Egeturk",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979021000",
+"stores": ""
+},
+{
+"barcode": "4017979033003",
+"name": "PinarRindswürstchen",
+"brand": "Egetürk",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4017979033003",
+"stores": ""
+},
+{
+"barcode": "0618455522000",
+"name": "Brauner Jasminreis mit konjak",
+"brand": "Elf-Family",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0618455522000",
+"stores": ""
+},
+{
+"barcode": "0618455522024",
+"name": "Reisbeerreis mit Konjak",
+"brand": "Elf-Family",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0618455522024",
+"stores": ""
+},
+{
+"barcode": "0618455522253",
+"name": "Spicy Green Curry Flavored",
+"brand": "Elf-Family",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0618455522253",
+"stores": ""
+},
+{
+"barcode": "8690723162301",
+"name": "Original Grün",
+"brand": "Erbak-Uludağ",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690723162301",
+"stores": "Imbiss"
+},
+{
+"barcode": "4011259041306",
+"name": "Zeytinli Dilim",
+"brand": "Erciyes",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4011259041306",
+"stores": ""
+},
+{
+"barcode": "4040328077007",
+"name": "Labneh",
+"brand": "Esma",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328077007",
+"stores": ""
+},
+{
+"barcode": "8719324585002",
+"name": "",
+"brand": "EU Vanhest",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8719324585002",
+"stores": ""
+},
+{
+"barcode": "8888440000574",
+"name": "Premium Fries",
+"brand": "Farmland",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8888440000574",
+"stores": ""
+},
+{
+"barcode": "8410525116704",
+"name": "fini",
+"brand": "Fini",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8410525116704",
+"stores": ""
+},
+{
+"barcode": "4262356630089",
+"name": "Layer Cake",
+"brand": "Flaki",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4262356630089",
+"stores": ""
+},
+{
+"barcode": "8853662057866",
+"name": "Sriracha Hot Chilli Sauce",
+"brand": "Flying Goose Brand",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8853662057866",
+"stores": ""
+},
+{
+"barcode": "8853662056029",
+"name": "Sriracha scharfe Chilisauce",
+"brand": "Flying Goose Brand",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8853662056029",
+"stores": "Tesco"
+},
+{
+"barcode": "4045500011848",
+"name": "Küchenjoghurt",
+"brand": "frischli",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4045500011848",
+"stores": "Metro"
+},
+{
+"barcode": "4027394007589",
+"name": "Izgara Sosis",
+"brand": "Fulya",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394007589",
+"stores": ""
+},
+{
+"barcode": "4002566010901",
+"name": "4 in 1 Grillmix",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010901",
+"stores": "REWE"
+},
+{
+"barcode": "4002566003194",
+"name": "Ayran",
+"brand": "GAZI",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566003194",
+"stores": "Marktkauf"
+},
+{
+"barcode": "4002566006119",
+"name": "Gazi Hirtenkäse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566006119",
+"stores": ""
+},
+{
+"barcode": "4002566010703",
+"name": "Grill- und Pfannenkäse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010703",
+"stores": "EDEKA, Kaufland, Picnic"
+},
+{
+"barcode": "4002566010710",
+"name": "Grill- und Pfannenkäse Natur",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010710",
+"stores": "EDEKA"
+},
+{
+"barcode": "4002566010765",
+"name": "Grillkäse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010765",
+"stores": ""
+},
+{
+"barcode": "4002566010079",
+"name": "Halloumi Basilikum",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010079",
+"stores": ""
+},
+{
+"barcode": "4002566010109",
+"name": "Halloumi Natur",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566010109",
+"stores": "Kaufland"
+},
+{
+"barcode": "4002566003507",
+"name": "Hirtenkäse leicht",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566003507",
+"stores": ""
+},
+{
+"barcode": "4002566003149",
+"name": "Jogurt",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566003149",
+"stores": "Ümit Karlsruhe"
+},
+{
+"barcode": "4002566003118",
+"name": "Jogurt Natur",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566003118",
+"stores": ""
+},
+{
+"barcode": "4002566002852",
+"name": "Kaşar Peyniri",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566002852",
+"stores": ""
+},
+{
+"barcode": "4002566006362",
+"name": "Schafkäse in Salzlake Koyun",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566006362",
+"stores": "Lidl"
+},
+{
+"barcode": "4002566114012",
+"name": "Schafskäse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566114012",
+"stores": ""
+},
+{
+"barcode": "4002566114029",
+"name": "Ziegen-Käse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566114029",
+"stores": "Aldi Süd"
+},
+{
+"barcode": "4002566011700",
+"name": "Ziegenkäse",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566011700",
+"stores": ""
+},
+{
+"barcode": "4002566005396",
+"name": "Ziegenkäse traditionelle Art",
+"brand": "Gazi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566005396",
+"stores": "sky"
+},
+{
+"barcode": "4250642385188",
+"name": "Hähnchen Minutenschnitzel",
+"brand": "Geflügelspezialitäten Steinfeld",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4250642385188",
+"stores": ""
+},
+{
+"barcode": "8888003250309",
+"name": "Tyj spring rolls pantry",
+"brand": "Geia food",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8888003250309",
+"stores": ""
+},
+{
+"barcode": "9120071080846",
+"name": "kalorienfreie Biosüße Powder",
+"brand": "Genuss ohne Reue",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9120071080846",
+"stores": ""
+},
+{
+"barcode": "8690661081085",
+"name": "Tahin sesampaste",
+"brand": "gesas",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690661081085",
+"stores": ""
+},
+{
+"barcode": "6260469004771",
+"name": "Ghormeh Sabzi",
+"brand": "Gilami",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6260469004771",
+"stores": ""
+},
+{
+"barcode": "8990044000024",
+"name": "Pocky Cookies & Cream",
+"brand": "Glico",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8990044000024",
+"stores": ""
+},
+{
+"barcode": "9556474123628",
+"name": "Glinter Sparkling Beverage Lychee Flavour",
+"brand": "Glinter",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9556474123628",
+"stores": ""
+},
+{
+"barcode": "8717703626681",
+"name": "Nouilles Ramen",
+"brand": "Golden Turtle BrandGolden Turtle Chef",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8717703626681",
+"stores": "Noz"
+},
+{
+"barcode": "8684122260539",
+"name": "Köfte Sosu",
+"brand": "Gourmet212",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8684122260539",
+"stores": "Alim Markt"
+},
+{
+"barcode": "4760041300854",
+"name": "Granatapfelsaft",
+"brand": "Grante",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4760041300854",
+"stores": ""
+},
+{
+"barcode": "6921180820025",
+"name": "Helle Soja Sauce",
+"brand": "guandong pro bio tech",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6921180820025",
+"stores": ""
+},
+{
+"barcode": "4311501016138",
+"name": "Dürum",
+"brand": "Gut & günstig",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4311501016138",
+"stores": ""
+},
+{
+"barcode": "4311501062968",
+"name": "frische fettarme Milch",
+"brand": "gut&günstig",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4311501062968",
+"stores": ""
+},
+{
+"barcode": "5410976826019",
+"name": "Belgian Chocolate Dark 72%",
+"brand": "Guylian",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5410976826019",
+"stores": "Carrefour, Rewe, Noz"
+},
+{
+"barcode": "5410976675013",
+"name": "Guylian's Temptations",
+"brand": "Guylian",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5410976675013",
+"stores": "Rewe"
+},
+{
+"barcode": "0837328000005",
+"name": "Udon noodles",
+"brand": "Hakubaku",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0837328000005",
+"stores": "Woolworths, Coles"
+},
+{
+"barcode": "9020200019511",
+"name": "",
+"brand": "Happy Coconut",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9020200019511",
+"stores": "Tamda"
+},
+{
+"barcode": "8691216014909",
+"name": "Chamallows Pink White Marshmallows Bag",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8691216014909",
+"stores": "carrefour.fr"
+},
+{
+"barcode": "0001000686813",
+"name": "Haribo",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0001000686813",
+"stores": ""
+},
+{
+"barcode": "1000686813",
+"name": "Haribo",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1000686813",
+"stores": ""
+},
+{
+"barcode": "4001686327753",
+"name": "Sauer Brenner",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4001686327753",
+"stores": ""
+},
+{
+"barcode": "86912160733",
+"name": "Tropifrutti",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/86912160733",
+"stores": ""
+},
+{
+"barcode": "0086912160733",
+"name": "Tropifrutti",
+"brand": "Haribo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0086912160733",
+"stores": ""
+},
+{
+"barcode": "8850206060054",
+"name": "Sweet Soja Sauce",
+"brand": "Healthy Boy Brand",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850206060054",
+"stores": ""
+},
+{
+"barcode": "8000080000268",
+"name": "Hero - miele",
+"brand": "Hero",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8000080000268",
+"stores": ""
+},
+{
+"barcode": "5430001593020",
+"name": "Lasagne",
+"brand": "Houria",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5430001593020",
+"stores": "Crazy Market"
+},
+{
+"barcode": "5430001593013",
+"name": "Lasagne Bolognaise 100% boeuf",
+"brand": "HOURIA FOOD",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5430001593013",
+"stores": "crazy market"
+},
+{
+"barcode": "5060495115370",
+"name": "Chocolate v3.1 gluten free powder",
+"brand": "Huel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5060495115370",
+"stores": ""
+},
+{
+"barcode": "5060495115639",
+"name": "Huel original",
+"brand": "Huel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5060495115639",
+"stores": ""
+},
+{
+"barcode": "5060495115417",
+"name": "Huel Powder v3.1 Vanilla Gluten Free",
+"brand": "Huel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5060495115417",
+"stores": "Huel.com"
+},
+{
+"barcode": "5060495115479",
+"name": "Huel Unflavoured and Unsweetened",
+"brand": "Huel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5060495115479",
+"stores": ""
+},
+{
+"barcode": "5060495117404",
+"name": "Salted Caramel",
+"brand": "Huel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5060495117404",
+"stores": ""
+},
+{
+"barcode": "4270002509665",
+"name": "Pain kebab",
+"brand": "Hünker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4270002509665",
+"stores": ""
+},
+{
+"barcode": "8994963002794",
+"name": "Instant noodles",
+"brand": "Indo Mie",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8994963002794",
+"stores": ""
+},
+{
+"barcode": "0089686170139",
+"name": "Instant Noodles Shrimp Flavour",
+"brand": "Indomie",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0089686170139",
+"stores": "Oliven Eksotisk Mat"
+},
+{
+"barcode": "8994963002176",
+"name": "Noodles",
+"brand": "Indomie",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8994963002176",
+"stores": ""
+},
+{
+"barcode": "0089686170108",
+"name": "nudells",
+"brand": "Indomie",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0089686170108",
+"stores": ""
+},
+{
+"barcode": "4251097420097",
+"name": "Beef Jerky - Teriyaki",
+"brand": "Jack Link's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251097420097",
+"stores": "REWE"
+},
+{
+"barcode": "4251097403083",
+"name": "Beef Jerky Original",
+"brand": "Jack Link's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251097403083",
+"stores": ""
+},
+{
+"barcode": "4251097406770",
+"name": "Dunne Rindfleischstreifen",
+"brand": "Jack Link's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251097406770",
+"stores": ""
+},
+{
+"barcode": "4251097420035",
+"name": "Beef Jerky Original",
+"brand": "Jack Links",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251097420035",
+"stores": ""
+},
+{
+"barcode": "4251097408057",
+"name": "Beef Jerky Teriyaki",
+"brand": "Jack Links",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251097408057",
+"stores": "EDEKA, Rewe, Normal"
+},
+{
+"barcode": "8600114006930",
+"name": "Munchmallow White",
+"brand": "Jaffa",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8600114006930",
+"stores": ""
+},
+{
+"barcode": "4806014000762",
+"name": "Mushrooms whole champignon",
+"brand": "Jolly",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4806014000762",
+"stores": ""
+},
+{
+"barcode": "8410300344384",
+"name": "Jumbo checken",
+"brand": "Jumbo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8410300344384",
+"stores": ""
+},
+{
+"barcode": "4011259047360",
+"name": "Teigfladen 28cm",
+"brand": "Kale",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4011259047360",
+"stores": "Coop"
+},
+{
+"barcode": "4031759626605",
+"name": "Lahmacun Türkische Pizza",
+"brand": "Kaliavi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4031759626605",
+"stores": ""
+},
+{
+"barcode": "4008460257305",
+"name": "",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460257305",
+"stores": ""
+},
+{
+"barcode": "4008460254144",
+"name": "Geflügel Wiener",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460254144",
+"stores": ""
+},
+{
+"barcode": "4008460266741",
+"name": "Geflügelbratwurst",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460266741",
+"stores": ""
+},
+{
+"barcode": "4008460255264",
+"name": "Geflügelbratwurst",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460255264",
+"stores": ""
+},
+{
+"barcode": "4008460266598",
+"name": "Hot Dog",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460266598",
+"stores": ""
+},
+{
+"barcode": "4008460258302",
+"name": "Kamar pullo halal",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460258302",
+"stores": ""
+},
+{
+"barcode": "4008460257404",
+"name": "Sliced chicken sausage",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460257404",
+"stores": ""
+},
+{
+"barcode": "4008460243025",
+"name": "Sucuk",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460243025",
+"stores": ""
+},
+{
+"barcode": "4008460243056",
+"name": "Sucuk",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460243056",
+"stores": ""
+},
+{
+"barcode": "4008460243049",
+"name": "Sucuk",
+"brand": "Kamar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008460243049",
+"stores": ""
+},
+{
+"barcode": "0786557863526",
+"name": "Extra Long Grain Sella Basmati Rice",
+"brand": "Kaspian",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0786557863526",
+"stores": ""
+},
+{
+"barcode": "3159470000120",
+"name": "Corn Flakes",
+"brand": "Kellogg's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/3159470000120",
+"stores": "Cora, Magasins U, Delhaize, Carrefour, carrefour.fr"
+},
+{
+"barcode": "3159470001424",
+"name": "Céréales All Bran Kellogg's Fibre Plus",
+"brand": "Kellogg's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/3159470001424",
+"stores": "Intermarché, Leclerc, E.Leclerc, Géant, Auchan, Carrefour"
+},
+{
+"barcode": "5000127533196",
+"name": "Kellogg's Variety",
+"brand": "Kellogg's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5000127533196",
+"stores": "Tesco"
+},
+{
+"barcode": "5053827101424",
+"name": "Smacks",
+"brand": "Kellogg's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5053827101424",
+"stores": "Carrefour Market, Carrefour, Spar"
+},
+{
+"barcode": "8690146112549",
+"name": "Bebeto Sour Cola",
+"brand": "Kervan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690146112549",
+"stores": ""
+},
+{
+"barcode": "5019124058052",
+"name": "Pure Butter Ghee",
+"brand": "Khanum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5019124058052",
+"stores": ""
+},
+{
+"barcode": "8852018141082",
+"name": "Carton Yumyum Kimchi",
+"brand": "Kim Chi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018141082",
+"stores": ""
+},
+{
+"barcode": "8693891195942",
+"name": "Paprikamark süß",
+"brand": "king",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8693891195942",
+"stores": ""
+},
+{
+"barcode": "8855702001815",
+"name": "Thai Cube - Sweet Chilli Chicken Teriyaki",
+"brand": "Kitchen Joy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8855702001815",
+"stores": "Netto MD"
+},
+{
+"barcode": "3870004003461",
+"name": "Jufka pâte phyllo",
+"brand": "Klas",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3870004003461",
+"stores": ""
+},
+{
+"barcode": "8718868485335",
+"name": "Hummus Classic Big",
+"brand": "Klilah",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8718868485335",
+"stores": ""
+},
+{
+"barcode": "409883",
+"name": "Chorba marocaine",
+"brand": "Knorr",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/409883",
+"stores": ""
+},
+{
+"barcode": "00409883",
+"name": "Chorba marocaine",
+"brand": "Knorr",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/00409883",
+"stores": ""
+},
+{
+"barcode": "4260335837351",
+"name": "Soja Protein Crispies",
+"brand": "Koro",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260335837351",
+"stores": "Internet"
+},
+{
+"barcode": "8690710030347",
+"name": "Tahin",
+"brand": "Koska",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690710030347",
+"stores": ""
+},
+{
+"barcode": "8690710030323",
+"name": "Tahin Sesampaste",
+"brand": "KOSKA",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690710030323",
+"stores": "SPAR"
+},
+{
+"barcode": "8690710009060",
+"name": "Turkish Delight",
+"brand": "Koska",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690710009060",
+"stores": ""
+},
+{
+"barcode": "5900385015185",
+"name": "Extra hot ketchup",
+"brand": "Kotlin",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5900385015185",
+"stores": ""
+},
+{
+"barcode": "8715589910726",
+"name": "Butterkäse",
+"brand": "Kraats Kaas",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8715589910726",
+"stores": "Wiglo"
+},
+{
+"barcode": "8715589674499",
+"name": "Gouda",
+"brand": "Kraats Kaas",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8715589674499",
+"stores": "Wiglo"
+},
+{
+"barcode": "8715589476673",
+"name": "Tilsiter in Scheiben",
+"brand": "Kraats Kaas",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8715589476673",
+"stores": "Wiglo"
+},
+{
+"barcode": "3850102126552",
+"name": "Mini bananko",
+"brand": "Kras",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850102126552",
+"stores": ""
+},
+{
+"barcode": "41015476",
+"name": "Zitronenkuchen",
+"brand": "Kuchenmeister",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/41015476",
+"stores": ""
+},
+{
+"barcode": "8696591063405",
+"name": "Grüne Oliven Cocktail",
+"brand": "KöySefası",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8696591063405",
+"stores": "Alim Markt"
+},
+{
+"barcode": "5902082418498",
+"name": "Hänschen Burger",
+"brand": "Köytur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5902082418498",
+"stores": ""
+},
+{
+"barcode": "41015445",
+"name": "Marmorkuchen",
+"brand": "Küchenmeister",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/41015445",
+"stores": "Netto, tmarket"
+},
+{
+"barcode": "9421902294129",
+"name": "Manuka Honig",
+"brand": "larnac",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9421902294129",
+"stores": ""
+},
+{
+"barcode": "8015565030500",
+"name": "Cantucci",
+"brand": "Laurieri",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8015565030500",
+"stores": ""
+},
+{
+"barcode": "6194049100044",
+"name": "Harissa Scharfe Gewürzpaste",
+"brand": "Le Phare  Cap Bon",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6194049100044",
+"stores": "Carrefour market, Woolworths, Grand Frais, kruiden-specerijen.nl, Marktkauf, Coles"
+},
+{
+"barcode": "5000111041010",
+"name": "Worcestershire Sauce",
+"brand": "Lea & Perrins",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5000111041010",
+"stores": "super U, Carrefour, Magasins U, Delhaize, Migros, carrefour.fr"
+},
+{
+"barcode": "0078895160468",
+"name": "Premium-Pilz-Würzpulver",
+"brand": "Lee Kum Kee",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0078895160468",
+"stores": "Go Asia"
+},
+{
+"barcode": "4026279981181",
+"name": "3x Türkische Pizza",
+"brand": "Lekker & Anders",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279981181",
+"stores": "REWE"
+},
+{
+"barcode": "4026279922252",
+"name": "Lahmacun",
+"brand": "Lekker anders",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279922252",
+"stores": ""
+},
+{
+"barcode": "8682291570596",
+"name": "ALZZAVAK KETCHUP FLAVOR",
+"brand": "LEMAR FOODS",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8682291570596",
+"stores": ""
+},
+{
+"barcode": "4034108011466",
+"name": "Marzipan simply pure",
+"brand": "Lemke",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4034108011466",
+"stores": "Kaufland"
+},
+{
+"barcode": "8011845003271",
+"name": "",
+"brand": "Levante",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8011845003271",
+"stores": ""
+},
+{
+"barcode": "8011845914102",
+"name": "Olio di Sansa di oliva",
+"brand": "levante",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8011845914102",
+"stores": ""
+},
+{
+"barcode": "4056489277309",
+"name": "",
+"brand": "Lidl",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4056489277309",
+"stores": "Lidl"
+},
+{
+"barcode": "4056489513421",
+"name": "Blanc de poulet",
+"brand": "Lidl",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4056489513421",
+"stores": ""
+},
+{
+"barcode": "3856020265366",
+"name": "Lino Lada Gold",
+"brand": "Lino",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3856020265366",
+"stores": ""
+},
+{
+"barcode": "8850030116125",
+"name": "Curry Paste, gelb",
+"brand": "Lobo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850030116125",
+"stores": "Asian Supermarkets"
+},
+{
+"barcode": "8850030116514",
+"name": "Nam Ya Curry Paste",
+"brand": "Lobo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850030116514",
+"stores": "go asia"
+},
+{
+"barcode": "8720618181688",
+"name": "Loc Kezz",
+"brand": "Lots of Candy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8720618181688",
+"stores": ""
+},
+{
+"barcode": "9555216584475",
+"name": "Fusilli",
+"brand": "Lotus’s",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9555216584475",
+"stores": ""
+},
+{
+"barcode": "8018440000872",
+"name": "Olivenöl",
+"brand": "Luglio",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8018440000872",
+"stores": ""
+},
+{
+"barcode": "0044738205610",
+"name": "Panang curry",
+"brand": "mae ploy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0044738205610",
+"stores": "Vinh Loi"
+},
+{
+"barcode": "8850487001166",
+"name": "Thai Chili Paste",
+"brand": "Mae Pranom",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850487001166",
+"stores": ""
+},
+{
+"barcode": "4005500301004",
+"name": "Maggi",
+"brand": "Maggi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4005500301004",
+"stores": ""
+},
+{
+"barcode": "4005500310105",
+"name": "Maggi",
+"brand": "Maggi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4005500310105",
+"stores": "Rewe, Real, Kaufland, Penny, Edeka"
+},
+{
+"barcode": "44105422",
+"name": "Maggi Würze",
+"brand": "Maggi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/44105422",
+"stores": ""
+},
+{
+"barcode": "8445290875365",
+"name": "unknown product",
+"brand": "Maggi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8445290875365",
+"stores": ""
+},
+{
+"barcode": "8850987101083",
+"name": "mama Instant Noodles Shrimp Flavour (Tom Yum)",
+"brand": "Mama",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850987101083",
+"stores": ""
+},
+{
+"barcode": "8850987101090",
+"name": "Oriental Style Instant Noodles Chicken Flavour",
+"brand": "Mama",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850987101090",
+"stores": ""
+},
+{
+"barcode": "5310146002673",
+"name": "Hausgemachter Grüner Ajvar",
+"brand": "Mama's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5310146002673",
+"stores": "tegut..."
+},
+{
+"barcode": "4270001703538",
+"name": "Mangalore Döner Chicken",
+"brand": "Mangal",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4270001703538",
+"stores": ""
+},
+{
+"barcode": "4270001703507",
+"name": "",
+"brand": "Mangal Döner",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4270001703507",
+"stores": ""
+},
+{
+"barcode": "8000066448206",
+"name": "Ceci Indiani (Kala Chana)",
+"brand": "Mara",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8000066448206",
+"stores": ""
+},
+{
+"barcode": "8713800138003",
+"name": "Soft Nougat",
+"brand": "Marandi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8713800138003",
+"stores": ""
+},
+{
+"barcode": "8690103114531",
+"name": "Natürliche schwarze Oliven",
+"brand": "Marmarabirlik",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690103114531",
+"stores": ""
+},
+{
+"barcode": "8690103294882",
+"name": "Schwarze Oliven",
+"brand": "Marmarabirlik",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690103294882",
+"stores": ""
+},
+{
+"barcode": "0011210607033",
+"name": "Tabasco Chipotle 2yrs prod",
+"brand": "McILHENNY COMPANY",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0011210607033",
+"stores": ""
+},
+{
+"barcode": "8935270809447",
+"name": "Mdrinks Kokosnusssaft mit Ananas",
+"brand": "Mdrinks",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8935270809447",
+"stores": ""
+},
+{
+"barcode": "8594158580177",
+"name": "Torte Medownik",
+"brand": "Medoks",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8594158580177",
+"stores": ""
+},
+{
+"barcode": "8594158580023",
+"name": "Torte Medownik",
+"brand": "medoks",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8594158580023",
+"stores": ""
+},
+{
+"barcode": "8594158580238",
+"name": "Torte Medownik",
+"brand": "Medoks",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8594158580238",
+"stores": ""
+},
+{
+"barcode": "3900267010064",
+"name": "pashtet",
+"brand": "MEKA shpk",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3900267010064",
+"stores": "Supermarkets"
+},
+{
+"barcode": "4260745710053",
+"name": "Dattel Ajwa",
+"brand": "Mekka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260745710053",
+"stores": ""
+},
+{
+"barcode": "4260745710060",
+"name": "Dattel Khudri",
+"brand": "Mekka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260745710060",
+"stores": "Aldi"
+},
+{
+"barcode": "4260745710008",
+"name": "Medjool Datteln",
+"brand": "Mekka Datteln GmbH",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260745710008",
+"stores": "Aldi, Aldi Süd"
+},
+{
+"barcode": "4026279976255",
+"name": "Burger, Hähnchen",
+"brand": "Mekkafood",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279976255",
+"stores": ""
+},
+{
+"barcode": "4026279974503",
+"name": "Chicken Wings",
+"brand": "Mekkafood",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279974503",
+"stores": ""
+},
+{
+"barcode": "4026279978006",
+"name": "Cornstick",
+"brand": "Mekkafood",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279978006",
+"stores": ""
+},
+{
+"barcode": "4026279977573",
+"name": "Frikadellen",
+"brand": "Mekkafood",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279977573",
+"stores": ""
+},
+{
+"barcode": "4026279977221",
+"name": "Frikadellen",
+"brand": "Mekkafood",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4026279977221",
+"stores": "Marktkauf"
+},
+{
+"barcode": "8699073290252",
+"name": "Pickled Jalapeno Peppers Hot",
+"brand": "MELIS",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8699073290252",
+"stores": ""
+},
+{
+"barcode": "8936007661062",
+"name": "PRESERVED BONELESS SNAKE HEAD FISH",
+"brand": "MINH HA FOODS",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8936007661062",
+"stores": "Lâm's Asia-Markt, Auchan"
+},
+{
+"barcode": "4110035105390",
+"name": "Wrap multigrain",
+"brand": "Mission",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4110035105390",
+"stores": ""
+},
+{
+"barcode": "0435493765066",
+"name": "Noix de bœuf aux fines herbes",
+"brand": "Mosaïc",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0435493765066",
+"stores": ""
+},
+{
+"barcode": "5011061157126",
+"name": "Mumbos sour",
+"brand": "Mouthful of Mumbos",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061157126",
+"stores": ""
+},
+{
+"barcode": "0841165115587",
+"name": "Chicken",
+"brand": "Mr Noodles",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165115587",
+"stores": ""
+},
+{
+"barcode": "0846656006283",
+"name": "Mr Noodles Chicken",
+"brand": "Mr Noodles",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0846656006283",
+"stores": ""
+},
+{
+"barcode": "0846656006306",
+"name": "Vegetable",
+"brand": "Mr. Noodles",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0846656006306",
+"stores": ""
+},
+{
+"barcode": "8901042957517",
+"name": "Dal Makhani",
+"brand": "MTR",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8901042957517",
+"stores": "Coles"
+},
+{
+"barcode": "4251313830013",
+"name": "Haselnuss",
+"brand": "My Choco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251313830013",
+"stores": ""
+},
+{
+"barcode": "4251313830112",
+"name": "Mychoco brezel brownie",
+"brand": "my Choco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251313830112",
+"stores": ""
+},
+{
+"barcode": "4251313800108",
+"name": "Haselnuss",
+"brand": "mychoco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251313800108",
+"stores": "Edeka"
+},
+{
+"barcode": "4607086730171",
+"name": "Graine de tournesol",
+"brand": "Na Kryletschke",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4607086730171",
+"stores": ""
+},
+{
+"barcode": "8850173460130",
+"name": "Tom Ka Paste",
+"brand": "Namjai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850173460130",
+"stores": "go asia"
+},
+{
+"barcode": "8850173450131",
+"name": "Tom Yum Soup Paste",
+"brand": "Namjai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850173450131",
+"stores": "go asia"
+},
+{
+"barcode": "6210924594682",
+"name": "Cream Chantilly Chocolate",
+"brand": "nature trust",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6210924594682",
+"stores": ""
+},
+{
+"barcode": "03790106",
+"name": "Maggi Würze",
+"brand": "Nestle",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/03790106",
+"stores": ""
+},
+{
+"barcode": "8715000998630",
+"name": "Nido - Instant full cream milk powder",
+"brand": "Nestlé",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8715000998630",
+"stores": ""
+},
+{
+"barcode": "8801043021883",
+"name": "China Nudeln",
+"brand": "Nongshim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801043021883",
+"stores": ""
+},
+{
+"barcode": "8801043150620",
+"name": "Shin Ramyun Instant Nudeln Spicy",
+"brand": "Nongshim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801043150620",
+"stores": "Continent d'Asie, amazon"
+},
+{
+"barcode": "8801043022705",
+"name": "SOON VEGGIE RAMYUN NOODLE SOUP",
+"brand": "Nongshim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801043022705",
+"stores": "supermarché asiatique, Rewe, Tamda, Carrefour, Спар"
+},
+{
+"barcode": "8801043043441",
+"name": "Veggie Ramyun Noodle Soup",
+"brand": "Nongshim",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801043043441",
+"stores": ""
+},
+{
+"barcode": "0841165156887",
+"name": "Instant Noodels Chicken Flavor",
+"brand": "Noodlicious",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165156887",
+"stores": "Action"
+},
+{
+"barcode": "0841165156870",
+"name": "instant noodles",
+"brand": "Noodlicious",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165156870",
+"stores": ""
+},
+{
+"barcode": "0841165156856",
+"name": "Noodlicious beef Flavour",
+"brand": "Noodlicious",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165156856",
+"stores": ""
+},
+{
+"barcode": "8801052039855",
+"name": "Tettboki Sauce",
+"brand": "O'Food",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801052039855",
+"stores": ""
+},
+{
+"barcode": "4008960202317",
+"name": "Krem peyniri White cheese",
+"brand": "oba",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4008960202317",
+"stores": ""
+},
+{
+"barcode": "8854698014557",
+"name": "Kabusecha",
+"brand": "Oishi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8854698014557",
+"stores": "New Asia Market"
+},
+{
+"barcode": "4260557521311",
+"name": "Erdnuss & Sesam",
+"brand": "OLYMP",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260557521311",
+"stores": ""
+},
+{
+"barcode": "9556417644128",
+"name": "Hirata Buns",
+"brand": "PA",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9556417644128",
+"stores": ""
+},
+{
+"barcode": "2000000134040",
+"name": "Palerria - Griechische Dolmas, gefüllte Weinblätter mit Reis.",
+"brand": "Palerria (Palirroia)",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/2000000134040",
+"stores": ""
+},
+{
+"barcode": "6001049068079",
+"name": "Smooth plain Low fat yogurt",
+"brand": "Parmalat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food council of europe",
+"url": "https://world.openfoodfacts.org/product/6001049068079",
+"stores": ""
+},
+{
+"barcode": "6921180820087",
+"name": "Dunkle Sojasauce, Superior",
+"brand": "Pearl River Bridge",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6921180820087",
+"stores": "Woolworths"
+},
+{
+"barcode": "4062139001620",
+"name": "Pepsi",
+"brand": "Pepsi",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4062139001620",
+"stores": ""
+},
+{
+"barcode": "8690565330289",
+"name": "Ayran",
+"brand": "Pinar",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690565330289",
+"stores": ""
+},
+{
+"barcode": "5412514935276",
+"name": "Dürüm - Poco Loco",
+"brand": "Poco Loco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5412514935276",
+"stores": ""
+},
+{
+"barcode": "1278072301052",
+"name": "",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/1278072301052",
+"stores": ""
+},
+{
+"barcode": "3850104050565",
+"name": "Ajvar scharf",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850104050565",
+"stores": "Kaufland, Spar, ICA"
+},
+{
+"barcode": "3850104008597",
+"name": "Gewürze - Vegeta - Würzmischung mit Gemüse",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850104008597",
+"stores": "Maxi, Lidl"
+},
+{
+"barcode": "3850104019784",
+"name": "Lada",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850104019784",
+"stores": ""
+},
+{
+"barcode": "3856020213572",
+"name": "Lino Lada Gold",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3856020213572",
+"stores": ""
+},
+{
+"barcode": "3856020214937",
+"name": "Rinderfruhstucksfleisch",
+"brand": "Podravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3856020214937",
+"stores": ""
+},
+{
+"barcode": "8888196906311",
+"name": "Houjicha Roasted Tea",
+"brand": "Pokka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8888196906311",
+"stores": ""
+},
+{
+"barcode": "9555855400150",
+"name": "Ice Bars Mango",
+"brand": "Pops Malaya",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9555855400150",
+"stores": ""
+},
+{
+"barcode": "0846656006252",
+"name": "Mr.Noodles beef",
+"brand": "pran",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0846656006252",
+"stores": "Action"
+},
+{
+"barcode": "0841165125111",
+"name": "Soupe Noodles Beef",
+"brand": "Pran",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0841165125111",
+"stores": ""
+},
+{
+"barcode": "7330989003505",
+"name": "Chicken Schnitzel",
+"brand": "Qibbla Halal Kött AB",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7330989003505",
+"stores": ""
+},
+{
+"barcode": "8858306003490",
+"name": "Jasminreis",
+"brand": "QRice",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858306003490",
+"stores": ""
+},
+{
+"barcode": "7613356113770",
+"name": "Lychees",
+"brand": "Qualité & Prix",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7613356113770",
+"stores": ""
+},
+{
+"barcode": "4006040004677",
+"name": "Sunflower Butter",
+"brand": "Rapunzel",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4006040004677",
+"stores": ""
+},
+{
+"barcode": "8858135000974",
+"name": "Kokosmilch",
+"brand": "Real Thai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858135000974",
+"stores": "Carrefour"
+},
+{
+"barcode": "8858135000028",
+"name": "Kokosmilch | Lait de coco",
+"brand": "Real Thai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858135000028",
+"stores": ""
+},
+{
+"barcode": "8858135002794",
+"name": "Kokosnussmilch",
+"brand": "Real Thai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858135002794",
+"stores": "REWE"
+},
+{
+"barcode": "8858135000059",
+"name": "Kokosnussmilch",
+"brand": "Real Thai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858135000059",
+"stores": "Cerise & Potiron, REWE"
+},
+{
+"barcode": "8858135001322",
+"name": "Kokosnussmilch",
+"brand": "Real Thai",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8858135001322",
+"stores": ""
+},
+{
+"barcode": "8850025000026",
+"name": "Coconut Water",
+"brand": "Refresh",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8850025000026",
+"stores": "ASDA, Tesco"
+},
+{
+"barcode": "2000000025010",
+"name": "fibrestore",
+"brand": "reliv",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/2000000025010",
+"stores": ""
+},
+{
+"barcode": "5701758012035",
+"name": "Beef Luncheon Meat With Chicken",
+"brand": "Robert",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5701758012035",
+"stores": ""
+},
+{
+"barcode": "5705250162526",
+"name": "Chicken Luncheon Meat",
+"brand": "Robert",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5705250162526",
+"stores": ""
+},
+{
+"barcode": "4711931007292",
+"name": "Mochi Thé Vert 210G",
+"brand": "Royal Family",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4711931007292",
+"stores": "Woolworths, Paris Store"
+},
+{
+"barcode": "7091143309115",
+"name": "Vanilleextrakt",
+"brand": "Sallys welt",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7091143309115",
+"stores": ""
+},
+{
+"barcode": "8801073114548",
+"name": "Buldak 3x spicy",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073114548",
+"stores": "Mango Supermarked"
+},
+{
+"barcode": "8801073113312",
+"name": "Buldak Cheese Hot Chicken Flavor Ramen",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073113312",
+"stores": "Auchan"
+},
+{
+"barcode": "8801073113404",
+"name": "Buldak Curry",
+"brand": "samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073113404",
+"stores": "Tain Kim Heng"
+},
+{
+"barcode": "8801073110502",
+"name": "buldak hot chicken black",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073110502",
+"stores": "freshasia.de, Carrefour, Terramar"
+},
+{
+"barcode": "8801073113893",
+"name": "Buldak Hot Chicken Flavor Ramen Carbonara",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073113893",
+"stores": "K-Supermarket"
+},
+{
+"barcode": "8801073113428",
+"name": "Buldak Hot Chicken Flavour Ramen 2x spicy",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073113428",
+"stores": "Netto, Rewe"
+},
+{
+"barcode": "8801073411395",
+"name": "Buldak Hot Sauce 2x Spicy",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073411395",
+"stores": ""
+},
+{
+"barcode": "8801073142312",
+"name": "Buldak Spicy Chicken Carbonara",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073142312",
+"stores": "supermarket, Woolworths, Oliven Eksotisk Mat"
+},
+{
+"barcode": "0074603005922",
+"name": "Chacharoni Blackbean Sauce Ramen",
+"brand": "samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0074603005922",
+"stores": "Tain Kim Heng, Asian Market, go asia"
+},
+{
+"barcode": "8801073115057",
+"name": "Hot-Pepper Stir-Fried Ramen",
+"brand": "SamYang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073115057",
+"stores": ""
+},
+{
+"barcode": "8801073113947",
+"name": "Jjajang Hot Chicken Flavor Ramen",
+"brand": "SAMYANG",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073113947",
+"stores": "Go Asia"
+},
+{
+"barcode": "8801073115422",
+"name": "Jjajang Ramen",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073115422",
+"stores": "Mercado Yajia"
+},
+{
+"barcode": "8801073211216",
+"name": "Samyang 2X Spicy Bowl",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073211216",
+"stores": "Woolworths"
+},
+{
+"barcode": "8801073114685",
+"name": "Tomato Pasta Buldak Artificial Spicy Chicken Flavor Ramen",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8801073114685",
+"stores": "Tain Kim Heng"
+},
+{
+"barcode": "0074603003171",
+"name": "Yukgaejang Hot Mushroom Flavour Noodle Soup ramen",
+"brand": "Samyang",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0074603003171",
+"stores": ""
+},
+{
+"barcode": "4260024180096",
+"name": "Gesüßte Schlagcreme",
+"brand": "Schlagfix",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260024180096",
+"stores": ""
+},
+{
+"barcode": "4260024180089",
+"name": "Schlagcreme",
+"brand": "Schlagfix",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260024180089",
+"stores": "Kupsch, Σκλαβενίτης, EDEKA, rohlik.cz"
+},
+{
+"barcode": "4260024180270",
+"name": "Sprühfertige Schlagcreme",
+"brand": "Schlagfix",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260024180270",
+"stores": "Puro shop, Billa"
+},
+{
+"barcode": "5411944105822",
+"name": "Turkish Delight",
+"brand": "Sebahat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5411944105822",
+"stores": ""
+},
+{
+"barcode": "3156889725323",
+"name": "Concentrate of African Spices for Fish",
+"brand": "Secret",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3156889725323",
+"stores": ""
+},
+{
+"barcode": "4047187000504",
+"name": "Sucuk - Selam",
+"brand": "Selam",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4047187000504",
+"stores": ""
+},
+{
+"barcode": "4047187000184",
+"name": "Tavuk Sosis",
+"brand": "Selam",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4047187000184",
+"stores": ""
+},
+{
+"barcode": "7331217261223",
+"name": "Original Corned Beef",
+"brand": "Sevan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7331217261223",
+"stores": ""
+},
+{
+"barcode": "0788821042026",
+"name": "Mutton biryani mix",
+"brand": "Shan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0788821042026",
+"stores": ""
+},
+{
+"barcode": "0788821030016",
+"name": "tandoori massala",
+"brand": "Shan Foods (Private) Ltd.",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0788821030016",
+"stores": "Super U"
+},
+{
+"barcode": "4009097010615",
+"name": "Wraps",
+"brand": "Sinnack",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4009097010615",
+"stores": ""
+},
+{
+"barcode": "4009097010349",
+"name": "Wraps",
+"brand": "Sinnack",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4009097010349",
+"stores": "NETTO"
+},
+{
+"barcode": "4009097010479",
+"name": "Wraps Mehrkorn mit Leinsamen",
+"brand": "Sinnack",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4009097010479",
+"stores": "NETTO"
+},
+{
+"barcode": "9346976000349",
+"name": "Fettuccine- bio Konjak",
+"brand": "Slendier",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9346976000349",
+"stores": ""
+},
+{
+"barcode": "9346976000325",
+"name": "Nudeln: Spaghetti konjak",
+"brand": "Slendier",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9346976000325",
+"stores": ""
+},
+{
+"barcode": "3870009000014",
+"name": "krip",
+"brand": "Solana Tuzla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3870009000014",
+"stores": ""
+},
+{
+"barcode": "4040328042029",
+"name": "Saucisses de Vienne",
+"brand": "Suntan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328042029",
+"stores": ""
+},
+{
+"barcode": "4040328083411",
+"name": "Adana",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328083411",
+"stores": ""
+},
+{
+"barcode": "4040328083039",
+"name": "Bacon fume hindi",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328083039",
+"stores": ""
+},
+{
+"barcode": "4040328074372",
+"name": "Kaymak",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328074372",
+"stores": ""
+},
+{
+"barcode": "4002084003225",
+"name": "Spinat 3 Käse",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002084003225",
+"stores": ""
+},
+{
+"barcode": "4040328086238",
+"name": "Sığır Etli Macar Hindi Dilim Salam",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328086238",
+"stores": ""
+},
+{
+"barcode": "4040328083398",
+"name": "Sığır Sosis",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040328083398",
+"stores": ""
+},
+{
+"barcode": "8690804355196",
+"name": "Tortillas 8 Stück",
+"brand": "Suntat",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690804355196",
+"stores": ""
+},
+{
+"barcode": "0608171025015",
+"name": "Aloo Mutter",
+"brand": "Swad",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0608171025015",
+"stores": ""
+},
+{
+"barcode": "0608171025169",
+"name": "Paneer Tikka Masala",
+"brand": "Swag",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0608171025169",
+"stores": ""
+},
+{
+"barcode": "3875000050020",
+"name": "Eurocrem Schokolade",
+"brand": "Swisslion",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3875000050020",
+"stores": ""
+},
+{
+"barcode": "5010478402188",
+"name": "Love Heart Candy Sticks",
+"brand": "Swizzels",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5010478402188",
+"stores": ""
+},
+{
+"barcode": "0011210002173",
+"name": "Gewürz - Tabasco Classic",
+"brand": "Tabasco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0011210002173",
+"stores": "Netto D-M, Auchan Wissembourg Fr."
+},
+{
+"barcode": "0011210006508",
+"name": "Tabasco Habanero Sauce",
+"brand": "Tabasco",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0011210006508",
+"stores": "Delhaize, HIT"
+},
+{
+"barcode": "8809061670380",
+"name": "Red Pepper Powder",
+"brand": "Taekyung",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8809061670380",
+"stores": "Asia Supermarkt"
+},
+{
+"barcode": "8606108498279",
+"name": "Adela Riza",
+"brand": "Tako",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8606108498279",
+"stores": ""
+},
+{
+"barcode": "4040357012925",
+"name": "SIGIR DILIM SALAM",
+"brand": "TAMTÜRK",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040357012925",
+"stores": ""
+},
+{
+"barcode": "9555144300130",
+"name": "Paste for prawn noodle",
+"brand": "Tean’s Gourmet",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9555144300130",
+"stores": ""
+},
+{
+"barcode": "0054881005951",
+"name": "EARL GREY TEA",
+"brand": "Tee",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0054881005951",
+"stores": ""
+},
+{
+"barcode": "8011845001024",
+"name": "San Martini",
+"brand": "Tenuta San Martino",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8011845001024",
+"stores": ""
+},
+{
+"barcode": "8934663900372",
+"name": "Instant Reisnudelsuppe mit Hähnchenfleischgeschmack",
+"brand": "Thien Huong Food Joint Stock Company",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8934663900372",
+"stores": "Kaufland"
+},
+{
+"barcode": "4045198904392",
+"name": "Edamame Bohnen",
+"brand": "Three Coconut Tree",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4045198904392",
+"stores": ""
+},
+{
+"barcode": "0912122897348",
+"name": "Tsingtao Spring Rolls",
+"brand": "Three Coconut Tree",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0912122897348",
+"stores": ""
+},
+{
+"barcode": "7312930002744",
+"name": "Toblerone schokoladen torte",
+"brand": "Toblerone",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7312930002744",
+"stores": ""
+},
+{
+"barcode": "7614500010310",
+"name": "Toblerone Weiß",
+"brand": "Toblerone",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/7614500010310",
+"stores": "Coop, Action"
+},
+{
+"barcode": "29020805",
+"name": "ALDI TRADER JOE'S Röstzwiebeln 0.99€ 200g. Beutel 1kg 4.95€",
+"brand": "Trader Joe's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/29020805",
+"stores": "Aldi, Aldi Nord, Trader Joe's"
+},
+{
+"barcode": "5017689020378",
+"name": "Tamarin Concentre 200ML",
+"brand": "TRS",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5017689020378",
+"stores": ""
+},
+{
+"barcode": "4050164051116",
+"name": "Sigir Sosis",
+"brand": "Tuna",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4050164051116",
+"stores": ""
+},
+{
+"barcode": "8851011119258",
+"name": "Mango in light syrup",
+"brand": "Twin Elephants",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8851011119258",
+"stores": ""
+},
+{
+"barcode": "5319990708120",
+"name": "Pashtetë",
+"brand": "Uka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5319990708120",
+"stores": "Oliven Eksotisk Mat"
+},
+{
+"barcode": "8690723163506",
+"name": "Uludag Gazoz",
+"brand": "Uludag",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690723163506",
+"stores": ""
+},
+{
+"barcode": "8690723442304",
+"name": "Uludag gazoz ohne Zucker",
+"brand": "Uludag",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690723442304",
+"stores": ""
+},
+{
+"barcode": "8690723312300",
+"name": "Uludag ORANGE",
+"brand": "ULUDAG",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690723312300",
+"stores": ""
+},
+{
+"barcode": "8690723373400",
+"name": "Uludağ Gazoz Orange",
+"brand": "Uludağ",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690723373400",
+"stores": "Kaufland"
+},
+{
+"barcode": "8711327371002",
+"name": "Ben & Jerry's Half Baked",
+"brand": "Unilever norge",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711327371002",
+"stores": "City Gross, Carrefour, Maxima"
+},
+{
+"barcode": "8711327370708",
+"name": "Chocolate Fudge Brownie",
+"brand": "Unilever norge",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711327370708",
+"stores": "Coop, carrefour.fr"
+},
+{
+"barcode": "8711327373105",
+"name": "Cookie Dough",
+"brand": "Unilever norge",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8711327373105",
+"stores": ""
+},
+{
+"barcode": "3850104008443",
+"name": "Podravka Vegeta Würzmischung mit Gemüse",
+"brand": "VegetaPodravka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3850104008443",
+"stores": ""
+},
+{
+"barcode": "4056489724100",
+"name": "delizia al cocco pesca",
+"brand": "Vemondo",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4056489724100",
+"stores": "Lidl"
+},
+{
+"barcode": "8935311140584",
+"name": "Reisnudeln",
+"brand": "Vifon",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8935311140584",
+"stores": ""
+},
+{
+"barcode": "5202390024238",
+"name": "Bloc saveur Emmental",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390024238",
+"stores": "Delhaize, Edeka, Amazon, Carrefour, Colruyt, Match"
+},
+{
+"barcode": "5202390021121",
+"name": "Creamy",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390021121",
+"stores": "Delhaize, Colruyt, Edeka, Amazon, Carrefour, Cora"
+},
+{
+"barcode": "5202390021510",
+"name": "Creamy with garlic & herbs",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390021510",
+"stores": "Carrefour, Amazon, Delhaize, Colruyt, Edeka, Match"
+},
+{
+"barcode": "5202390024368",
+"name": "Gouda flavor slices",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390024368",
+"stores": "Colruyt, Carrefour, Amazon, Delhaize, Match, Cora"
+},
+{
+"barcode": "5202390024597",
+"name": "Gouda flavour",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390024597",
+"stores": "Delhaize, Colruyt, Carrefour, Edeka, Amazon, Match"
+},
+{
+"barcode": "5202390019319",
+"name": "Mozzarella Geschmack Gerieben",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390019319",
+"stores": "Delhaize, Edeka, Amazon, Carrefour, Colruyt, Match"
+},
+{
+"barcode": "5202390018855",
+"name": "Original Flavour - Grated",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390018855",
+"stores": "Colruyt, Carrefour, Edeka, Amazon, Delhaize, Match"
+},
+{
+"barcode": "5202390024221",
+"name": "Râpé saveur Emmental",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390024221",
+"stores": "Colruyt, Carrefour, Edeka, Amazon, Delhaize, Match"
+},
+{
+"barcode": "5202390015885",
+"name": "Tranches saveur Cheddar",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390015885",
+"stores": "Amazon, Delhaize, Colruyt, Carrefour, Edeka, Match"
+},
+{
+"barcode": "5202390024214",
+"name": "Tranches saveur Emmental",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390024214",
+"stores": "Colruyt, Carrefour, Edeka, Delhaize, Amazon, Match"
+},
+{
+"barcode": "5202390016325",
+"name": "Tranches saveur fumé",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390016325",
+"stores": "Edeka, Carrefour, Amazon, Colruyt, Delhaize, Cora"
+},
+{
+"barcode": "5202390015878",
+"name": "Violife 100% vegan original flavour slices",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390015878",
+"stores": "Delhaize, Colruyt, Carrefour, Edeka, Amazon, Match"
+},
+{
+"barcode": "5202390023224",
+"name": "Violife Gouda Flavour Slices",
+"brand": "Violife",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5202390023224",
+"stores": ""
+},
+{
+"barcode": "5310005001175",
+"name": "pudding",
+"brand": "Vitaminka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5310005001175",
+"stores": ""
+},
+{
+"barcode": "5053827183468",
+"name": "No added sugar Crunchy Müsli, Apricot&Pumpkin seeds",
+"brand": "W. K. Kellogg",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5053827183468",
+"stores": "Kaufland"
+},
+{
+"barcode": "5053827199438",
+"name": "Crunchy Muesli Cacao & Hazelnut",
+"brand": "W.K. Kellogg",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "Certifier: halal food authority",
+"url": "https://world.openfoodfacts.org/product/5053827199438",
+"stores": ""
+},
+{
+"barcode": "4260499040819",
+"name": "Collagen Peptide Typ I, II, III",
+"brand": "Wehle Sports",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260499040819",
+"stores": ""
+},
+{
+"barcode": "6001030003966",
+"name": "Tomato sauce",
+"brand": "Wellington's",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6001030003966",
+"stores": ""
+},
+{
+"barcode": "4019467467307",
+"name": "Bruzzler extra-würzig",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467467307",
+"stores": ""
+},
+{
+"barcode": "4019467483109",
+"name": "Geflügel Bacon",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467483109",
+"stores": "NETTO"
+},
+{
+"barcode": "4019467470505",
+"name": "Geflügel-Bierschinken",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467470505",
+"stores": "EDEKA"
+},
+{
+"barcode": "4019467483505",
+"name": "Geflügel-Mortadella - Paprika",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467483505",
+"stores": ""
+},
+{
+"barcode": "4019467470000",
+"name": "Geflügelsalami",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467470000",
+"stores": "Edeka"
+},
+{
+"barcode": "4019467438307",
+"name": "Hähnchen Salami",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467438307",
+"stores": ""
+},
+{
+"barcode": "4019467438000",
+"name": "Hähnchen-Fleischwurst",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467438000",
+"stores": ""
+},
+{
+"barcode": "4019467438208",
+"name": "Hähnchen-Grillbraten",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467438208",
+"stores": "Edeka"
+},
+{
+"barcode": "4019467470703",
+"name": "Mortadella",
+"brand": "Wiesenhof",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4019467470703",
+"stores": ""
+},
+{
+"barcode": "3700453800055",
+"name": "Araw (hirsemehl Kugeln) 350G Un La Vivriére",
+"brand": "WiiW",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3700453800055",
+"stores": ""
+},
+{
+"barcode": "8053904630028",
+"name": "Konjac Grain",
+"brand": "Wokfoods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630028",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "8053904630011",
+"name": "Konjac Linguine",
+"brand": "WokFoods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630011",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "8053904630004",
+"name": "Shirataki konjac",
+"brand": "Wokfoods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630004",
+"stores": "Carrefour, Auchan, Coop, Migross, Conad, Jumbo"
+},
+{
+"barcode": "8053904630592",
+"name": "Shirataki ready to cook with pad thai sauce",
+"brand": "WokFoods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630592",
+"stores": "Auchan, Carrefour, Coop, Iper"
+},
+{
+"barcode": "8053904630585",
+"name": "Shirataki ready to cook with teriyaki sauce",
+"brand": "WokFoods",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8053904630585",
+"stores": ""
+},
+{
+"barcode": "6001009013569",
+"name": "Brown Lentils",
+"brand": "Woolworths South Africa",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6001009013569",
+"stores": "Woolworths"
+},
+{
+"barcode": "4013138010625",
+"name": "Corn Flakes, Ohne Zuckerzusatz",
+"brand": "Wurzener",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4013138010625",
+"stores": "NETTO"
+},
+{
+"barcode": "4013138014302",
+"name": "Corn Flales",
+"brand": "Wurzener",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4013138014302",
+"stores": ""
+},
+{
+"barcode": "4031446863719",
+"name": "Apfel Chips",
+"brand": "xox",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4031446863719",
+"stores": "Thomas Philipps"
+},
+{
+"barcode": "4031446820453",
+"name": "Krupuk",
+"brand": "XOX",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4031446820453",
+"stores": "NETTO"
+},
+{
+"barcode": "4027394004137",
+"name": "",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394004137",
+"stores": ""
+},
+{
+"barcode": "4027394003635",
+"name": "Ayran",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394003635",
+"stores": ""
+},
+{
+"barcode": "4027394004106",
+"name": "Dana Sosis",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394004106",
+"stores": ""
+},
+{
+"barcode": "4027394003741",
+"name": "Köy Ayranı",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394003741",
+"stores": ""
+},
+{
+"barcode": "4027394004083",
+"name": "Sosis",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394004083",
+"stores": ""
+},
+{
+"barcode": "4027394005370",
+"name": "SUCUK",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394005370",
+"stores": ""
+},
+{
+"barcode": "4027394050806",
+"name": "Sucuk",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394050806",
+"stores": ""
+},
+{
+"barcode": "4027394005424",
+"name": "Sucuk",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394005424",
+"stores": ""
+},
+{
+"barcode": "4027394050721",
+"name": "Sucuk",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394050721",
+"stores": ""
+},
+{
+"barcode": "4027394005707",
+"name": "Sucuk, Knoblauchwurst",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394005707",
+"stores": ""
+},
+{
+"barcode": "4027394005257",
+"name": "süper stix",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394005257",
+"stores": ""
+},
+{
+"barcode": "4027394004335",
+"name": "Wiener Sosis Geflügelwiener",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394004335",
+"stores": ""
+},
+{
+"barcode": "4027394004090",
+"name": "yayla peynirli sosis",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394004090",
+"stores": ""
+},
+{
+"barcode": "4027394005684",
+"name": "Yayla Premium Sucuk",
+"brand": "Yayla",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4027394005684",
+"stores": ""
+},
+{
+"barcode": "0077521273367",
+"name": "Plum sauce",
+"brand": "Yeo’s",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0077521273367",
+"stores": "Tain Kim Heng"
+},
+{
+"barcode": "4712905016043",
+"name": "Japane Style Sesame Mochi",
+"brand": "Yuki & Love",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4712905016043",
+"stores": "MIX-Markt"
+},
+{
+"barcode": "8852018101147",
+"name": "Grilled Chicken Flavour",
+"brand": "Yum Yum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101147",
+"stores": "Magasins U, REWE"
+},
+{
+"barcode": "8852018101055",
+"name": "Instant Nudeln Shrimps",
+"brand": "Yum Yum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101055",
+"stores": "Citymarket, Prisma"
+},
+{
+"barcode": "8852018101031",
+"name": "Instant Nudeln, Duck Flavour",
+"brand": "Yum Yum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101031",
+"stores": "Magasins U"
+},
+{
+"barcode": "8852018101154",
+"name": "Japanese Chicken Flavor",
+"brand": "Yum Yum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101154",
+"stores": "REWE"
+},
+{
+"barcode": "8852018102021",
+"name": "Tomyum Shrimp",
+"brand": "YUM YUM",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018102021",
+"stores": "Go Asia"
+},
+{
+"barcode": "8852018101017",
+"name": "Beef",
+"brand": "YumYum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101017",
+"stores": "Tang Frères, Irma.dk, Magasins U, Kaufland, Auchan, carrefour.fr"
+},
+{
+"barcode": "8852018250012",
+"name": "Green Curry Flavour",
+"brand": "YumYum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018250012",
+"stores": "go asia"
+},
+{
+"barcode": "8852018101079",
+"name": "Instant Noodles Curry Flavour",
+"brand": "YumYum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101079",
+"stores": "Edeka, Magasins U, Kaufland"
+},
+{
+"barcode": "8852018101024",
+"name": "Instant Nudeln, Chicken Flavour",
+"brand": "YumYum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101024",
+"stores": "Edeka, Irma.dk, Kaufland, carrefour.fr, Rewe, Go Asia"
+},
+{
+"barcode": "8852018101062",
+"name": "Yum Yum Vegetable",
+"brand": "YumYum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8852018101062",
+"stores": "Edeka, Magasins U, Kaufland"
+},
+{
+"barcode": "4251235831013",
+"name": "Manti",
+"brand": "Yurdum",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251235831013",
+"stores": ""
+},
+{
+"barcode": "4251871701015",
+"name": "Koyun Yogurdu",
+"brand": "Yörem",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4251871701015",
+"stores": ""
+},
+{
+"barcode": "4260193512131",
+"name": "Taze Ücgen Yufka",
+"brand": "Yörem",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260193512131",
+"stores": ""
+},
+{
+"barcode": "0400349009007",
+"name": "Volaille/boeuf piquant Pm",
+"brand": "Zahra",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/0400349009007",
+"stores": ""
+},
+{
+"barcode": "5011061123374",
+"name": "Wunderball",
+"brand": "Zed Camdy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061123374",
+"stores": ""
+},
+{
+"barcode": "5011061172037",
+"name": "Emoti Balls",
+"brand": "ZED CANDY",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061172037",
+"stores": "Tedi"
+},
+{
+"barcode": "5011061192554",
+"name": "Monster Wunderball",
+"brand": "Zed Candy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061192554",
+"stores": ""
+},
+{
+"barcode": "5011061157133",
+"name": "Mouthful of mumbos",
+"brand": "ZED Candy",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/5011061157133",
+"stores": ""
+},
+{
+"barcode": "8697422630117",
+"name": "mushahid",
+"brand": "ZER",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8697422630117",
+"stores": ""
+},
+{
+"barcode": "8714555000478",
+"name": "zwan",
+"brand": "Zwan",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8714555000478",
+"stores": ""
+},
+{
+"barcode": "8692809031006",
+"name": "Mir Coco",
+"brand": "Zümrüt",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8692809031006",
+"stores": ""
+},
+{
+"barcode": "4002566002241",
+"name": "Kaşar Peyniri, Schnittkäse",
+"brand": "Ömur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566002241",
+"stores": ""
+},
+{
+"barcode": "4002566002470",
+"name": "Omur",
+"brand": "Ömur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566002470",
+"stores": ""
+},
+{
+"barcode": "4002566002111",
+"name": "Yogurdu",
+"brand": "Ömür",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4002566002111",
+"stores": "Netto Marken-Discount"
+},
+{
+"barcode": "10270602",
+"name": "Tahinli Katmer",
+"brand": "Öz Yufka",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/10270602",
+"stores": ""
+},
+{
+"barcode": "4040357058084",
+"name": "Sigirli Salam",
+"brand": "Öznur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040357058084",
+"stores": ""
+},
+{
+"barcode": "4040357058053",
+"name": "Öznur Hindilim",
+"brand": "öznur",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4040357058053",
+"stores": ""
+},
+{
+"barcode": "4260193518706",
+"name": "Geflügel Knackwurst",
+"brand": "Özyörem",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260193518706",
+"stores": ""
+},
+{
+"barcode": "4260193517570",
+"name": "Sosis cocktail",
+"brand": "Özyörem",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/4260193517570",
+"stores": ""
+},
+{
+"barcode": "8690840173181",
+"name": "Gefüllte Weichbonbons mit Cola-Geschmack",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840173181",
+"stores": ""
+},
+{
+"barcode": "9396504064909",
+"name": "Peki 8cake Hazelnut",
+"brand": "ÜLKER",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/9396504064909",
+"stores": ""
+},
+{
+"barcode": "8690840214778",
+"name": "Sour Meter - Blueberry & lemon",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840214778",
+"stores": ""
+},
+{
+"barcode": "8690840215065",
+"name": "yupo Candy Tutti Frutti Flavour",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840215065",
+"stores": ""
+},
+{
+"barcode": "8690840179954",
+"name": "Yupo jelly",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840179954",
+"stores": ""
+},
+{
+"barcode": "8690840042487",
+"name": "Yupo Sour Flashes",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840042487",
+"stores": ""
+},
+{
+"barcode": "8690840176212",
+"name": "ülker Yupo Jelly Karavan",
+"brand": "Ülker",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/8690840176212",
+"stores": ""
+},
+{
+"barcode": "3800061605902",
+"name": "Ная вафли класик",
+"brand": "Престиж",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/3800061605902",
+"stores": ""
+},
+{
+"barcode": "6959212300917",
+"name": "DlLO",
+"brand": "سمك",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6959212300917",
+"stores": ""
+},
+{
+"barcode": "6260360004290",
+"name": "Noodles beef flavour",
+"brand": "نودلیت",
+"status": "halal",
+"source": "Halal label (Open Food Facts)",
+"note": "",
+"url": "https://world.openfoodfacts.org/product/6260360004290",
+"stores": ""
+}
+]
+}
