@@ -5,7 +5,8 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Build
 import android.provider.Settings
-import androidx.core.content.FileProvider
+import android.app.PendingIntent
+import android.content.pm.PackageInstaller
 import org.json.JSONObject
 import java.io.File
 
@@ -48,21 +49,51 @@ object Updater {
         return file
     }
 
-    /** @return false if the user first has to allow "install unknown apps" */
+    fun canInstall(ctx: Context): Boolean =
+        Build.VERSION.SDK_INT < Build.VERSION_CODES.O || ctx.packageManager.canRequestPackageInstalls()
+
+    /** Opens Android's "install unknown apps" setting for this app */
+    fun askInstallPermission(ctx: Context) {
+        ctx.startActivity(
+            Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES, Uri.parse("package:${ctx.packageName}"))
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+        )
+    }
+
+    /**
+     * Installs the APK with PackageInstaller.
+     * Android 12+: no confirmation once this app is the "installer of record"
+     * (i.e. after the first self-update). Otherwise Android shows one confirmation.
+     * @return false if the user first has to allow "install unknown apps"
+     */
     fun install(ctx: Context, file: File): Boolean {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O && !ctx.packageManager.canRequestPackageInstalls()) {
-            ctx.startActivity(
-                Intent(Settings.ACTION_MANAGE_UNKNOWN_APP_SOURCES, Uri.parse("package:${ctx.packageName}"))
-                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-            )
+        if (!canInstall(ctx)) {
+            askInstallPermission(ctx)
             return false
         }
-        val uri = FileProvider.getUriForFile(ctx, "${ctx.packageName}.files", file)
-        ctx.startActivity(
-            Intent(Intent.ACTION_VIEW)
-                .setDataAndType(uri, "application/vnd.android.package-archive")
-                .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_ACTIVITY_NEW_TASK)
-        )
+        val installer = ctx.packageManager.packageInstaller
+        val params = PackageInstaller.SessionParams(PackageInstaller.SessionParams.MODE_FULL_INSTALL).apply {
+            setAppPackageName(ctx.packageName)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
+                setRequireUserAction(PackageInstaller.SessionParams.USER_ACTION_NOT_REQUIRED)
+            }
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                setRequestUpdateOwnership(true)
+            }
+        }
+        val id = installer.createSession(params)
+        installer.openSession(id).use { session ->
+            session.openWrite("halal.apk", 0, file.length()).use { out ->
+                file.inputStream().use { it.copyTo(out) }
+                session.fsync(out)
+            }
+            val flags = PendingIntent.FLAG_UPDATE_CURRENT or
+                (if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) PendingIntent.FLAG_MUTABLE else 0)
+            val pi = PendingIntent.getBroadcast(
+                ctx, id, Intent(ctx, InstallReceiver::class.java).setPackage(ctx.packageName), flags
+            )
+            session.commit(pi.intentSender)
+        }
         return true
     }
 }

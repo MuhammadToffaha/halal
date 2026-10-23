@@ -51,6 +51,11 @@ Or tap **📝 Add / correct** in the app → opens a pre-filled GitHub issue.
 - 📦 Push code to `main` → GitHub Actions builds signed APK → new Release `vN` → app offers update
 - 📗 Push to `data/` → no build needed; app downloads data at start (or ⚙️ Sync data)
 
+## 🤫 Silent updates
+- ⚙️ Settings → **Silent auto-update** (on by default, Wi-Fi only by default)
+- 🕐 Checks GitHub every 6 h and when you leave the app → downloads → installs while the app is closed
+- ℹ️ Android rule: the **first** self-update asks once; after that updates install with no prompt (Android 12+)
+
 ## 🔐 Signing
 `app/release.jks` signs every release so updates install over the old app. Password can be overridden with the `KEYSTORE_PASSWORD` secret. Keep the same keystore forever — a new key = uninstall/reinstall.
 

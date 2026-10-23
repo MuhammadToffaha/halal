@@ -46,7 +46,20 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Lang.init(this)
+        UpdateWorker.schedule(this)
         setContent { HalalTheme { HalalApp() } }
+    }
+
+    override fun onStart() {
+        super.onStart()
+        AppPrefs.inForeground = true
+    }
+
+    override fun onStop() {
+        super.onStop()
+        AppPrefs.inForeground = false
+        // 🤫 user left the app → install a pending update silently in the background
+        if (!isChangingConfigurations) UpdateWorker.runSoon(this)
     }
 }
 
@@ -130,7 +143,8 @@ class AppState(private val ctx: Context, private val scope: CoroutineScope) {
                 val file = withContext(Dispatchers.IO) {
                     Updater.download(ctx, r.apkUrl) { p -> scope.launch { updateProgress = p } }
                 }
-                if (!Updater.install(ctx, file)) updateMsg = L("🔓 Allow installs from Halal, then tap Update again", "🔓 Installation für Halal erlauben, dann erneut auf Update tippen")
+                if (withContext(Dispatchers.IO) { Updater.install(ctx, file) }) updateMsg = L("⏳ Installing… app restarts by itself", "⏳ Installiere… App startet neu")
+                else updateMsg = L("🔓 Allow installs from Halal, then tap Update again", "🔓 Installation für Halal erlauben, dann erneut auf Update tippen")
             } catch (e: Exception) {
                 updateMsg = L("❌ Download failed", "❌ Download fehlgeschlagen")
             } finally {

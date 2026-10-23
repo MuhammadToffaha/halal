@@ -20,6 +20,16 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import android.Manifest
+import android.os.Build
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.material3.Switch
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.lifecycle.compose.LifecycleResumeEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
@@ -85,6 +95,45 @@ fun SettingsScreen(state: AppState, onSources: () -> Unit) {
                     }
                 }
                 state.updateMsg?.let { Text(it) }
+
+                GoldDivider(Modifier.padding(vertical = 4.dp))
+                var auto by remember { mutableStateOf(AppPrefs.autoUpdate(ctx)) }
+                var wifi by remember { mutableStateOf(AppPrefs.wifiOnly(ctx)) }
+                var canInstall by remember { mutableStateOf(Updater.canInstall(ctx)) }
+                val notifLauncher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) {}
+                LifecycleResumeEffect(Unit) { canInstall = Updater.canInstall(ctx); onPauseOrDispose {} }
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Column(Modifier.weight(1f)) {
+                        Text(L("🤫 Silent auto-update", "🤫 Stilles Auto-Update"), fontWeight = FontWeight.SemiBold)
+                        Text(
+                            L("Installs new versions in the background when the app is closed.",
+                              "Installiert neue Versionen im Hintergrund, wenn die App geschlossen ist."),
+                            fontSize = 12.sp
+                        )
+                    }
+                    Switch(checked = auto, onCheckedChange = {
+                        auto = it; AppPrefs.setAutoUpdate(ctx, it)
+                        if (it && Build.VERSION.SDK_INT >= 33) notifLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+                    })
+                }
+                if (auto) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text(L("📶 Wi-Fi only", "📶 Nur über WLAN"), modifier = Modifier.weight(1f))
+                        Switch(checked = wifi, onCheckedChange = { wifi = it; AppPrefs.setWifiOnly(ctx, it) })
+                    }
+                    if (!canInstall) {
+                        OutlinedButton(onClick = { Updater.askInstallPermission(ctx) }, modifier = Modifier.fillMaxWidth()) {
+                            Text(L("🔓 Allow Halal to install updates", "🔓 Halal Updates installieren lassen"))
+                        }
+                    } else {
+                        Text(L("✅ Ready", "✅ Bereit"), fontSize = 13.sp, color = MaterialTheme.colorScheme.primary)
+                    }
+                    Text(
+                        L("ℹ️ Android rule: the first update asks once, all later updates install silently (Android 12+).",
+                          "ℹ️ Android-Regel: Das erste Update fragt einmal, alle weiteren laufen still (ab Android 12)."),
+                        fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
             }
         }
 
