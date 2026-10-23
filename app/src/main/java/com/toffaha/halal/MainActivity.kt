@@ -15,6 +15,9 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.AlertDialog
+import androidx.compose.material3.Button
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
@@ -175,6 +178,7 @@ fun HalalApp() {
     val state = remember { AppState(ctx.applicationContext, scope) }
     var tab by remember { mutableStateOf(Tab.SCAN) }
     var showSources by remember { mutableStateOf(false) }
+    var popDismissed by remember { mutableStateOf(false) }
 
     LaunchedEffect(Unit) {
         state.data.loadLocal()
@@ -221,5 +225,19 @@ fun HalalApp() {
                 }
             }
         }
+    }
+
+    // 🎁 small pop-up on app start when a new version exists
+    val rel = state.release
+    if (rel != null && !popDismissed && state.updateProgress == null) {
+        AlertDialog(
+            onDismissRequest = { popDismissed = true },
+            icon = { Text("🎁", fontSize = 34.sp) },
+            title = { Text(L("New update 1.0.${rel.code} 🎉", "Neues Update 1.0.${rel.code} 🎉"), fontWeight = FontWeight.Bold) },
+            text = { Text(L("A newer Halal Scanner is ready — update now to get the latest features.",
+                "Eine neuere Version von Halal Scanner ist bereit — jetzt aktualisieren für die neuesten Funktionen.")) },
+            confirmButton = { Button(onClick = { popDismissed = true; state.installUpdate() }) { Text(L("⬇️ Update now", "⬇️ Jetzt aktualisieren")) } },
+            dismissButton = { TextButton(onClick = { popDismissed = true }) { Text(L("Later", "Später")) } }
+        )
     }
 }
