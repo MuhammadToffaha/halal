@@ -58,8 +58,7 @@ class MainActivity : ComponentActivity() {
     override fun onStop() {
         super.onStop()
         AppPrefs.inForeground = false
-        // 🤫 user left the app → install a pending update silently in the background
-        if (!isChangingConfigurations) UpdateWorker.runSoon(this)
+        // 🤫 updates: checked once a day in the background (UpdateWorker.schedule)
     }
 }
 

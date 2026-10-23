@@ -106,8 +106,8 @@ fun SettingsScreen(state: AppState, onSources: () -> Unit) {
                     Column(Modifier.weight(1f)) {
                         Text(L("🤫 Silent auto-update", "🤫 Stilles Auto-Update"), fontWeight = FontWeight.SemiBold)
                         Text(
-                            L("Installs new versions in the background when the app is closed.",
-                              "Installiert neue Versionen im Hintergrund, wenn die App geschlossen ist."),
+                            L("Checks once a day and installs new versions in the background.",
+                              "Prüft einmal am Tag und installiert neue Versionen im Hintergrund."),
                             fontSize = 12.sp
                         )
                     }
@@ -155,5 +155,7 @@ fun SettingsScreen(state: AppState, onSources: () -> Unit) {
 
         GoldDivider(Modifier.padding(vertical = 4.dp))
         TextButton(onClick = { ctx.openUrl(Config.REPO_URL) }, modifier = Modifier.align(Alignment.CenterHorizontally)) { Text("🐙 GitHub") }
+        Text("Designed by Muhammad Toffaha", fontSize = 12.sp, color = MaterialTheme.colorScheme.onSurfaceVariant,
+            modifier = Modifier.align(Alignment.CenterHorizontally).padding(bottom = 8.dp))
     }
 }

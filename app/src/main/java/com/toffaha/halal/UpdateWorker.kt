@@ -73,13 +73,13 @@ class UpdateWorker(ctx: Context, params: WorkerParameters) : CoroutineWorker(ctx
             .setRequiresBatteryNotLow(true)
             .build()
 
-        /** every 6 hours */
+        /** once a day */
         fun schedule(ctx: Context) {
             val wm = WorkManager.getInstance(ctx)
             if (!AppPrefs.autoUpdate(ctx)) {
                 wm.cancelUniqueWork(PERIODIC); return
             }
-            val req = PeriodicWorkRequestBuilder<UpdateWorker>(6, TimeUnit.HOURS)
+            val req = PeriodicWorkRequestBuilder<UpdateWorker>(24, TimeUnit.HOURS)
                 .setConstraints(constraints(ctx))
                 .build()
             wm.enqueueUniquePeriodicWork(PERIODIC, ExistingPeriodicWorkPolicy.UPDATE, req)
